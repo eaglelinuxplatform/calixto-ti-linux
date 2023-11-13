@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/pixcir_i2c_ts.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/pixcir_i2c_ts.ko drivers/input/touchscreen/pixcir_i2c_ts.o drivers/input/touchscreen/pixcir_i2c_ts.mod.o;  true

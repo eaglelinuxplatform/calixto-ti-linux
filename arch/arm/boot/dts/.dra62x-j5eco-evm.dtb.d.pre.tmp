@@ -1,0 +1,10 @@
+dra62x-j5eco-evm.o: arch/arm/boot/dts/dra62x-j5eco-evm.dts \
+ arch/arm/boot/dts/dra62x.dtsi arch/arm/boot/dts/dm814x.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/dm814.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/dm814x.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
+ arch/arm/boot/dts/dm814x-clocks.dtsi \
+ arch/arm/boot/dts/dra62x-clocks.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_cgroup.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_cgroup.ko net/netfilter/xt_cgroup.o net/netfilter/xt_cgroup.mod.o;  true

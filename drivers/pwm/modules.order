@@ -1,0 +1,5 @@
+drivers/pwm/pwm-omap-dmtimer.ko
+drivers/pwm/pwm-tiecap.ko
+drivers/pwm/pwm-tiehrpwm.ko
+drivers/pwm/pwm-twl.ko
+drivers/pwm/pwm-twl-led.ko

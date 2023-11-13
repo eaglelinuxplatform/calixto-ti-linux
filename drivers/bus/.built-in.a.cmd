@@ -1,0 +1,1 @@
+cmd_drivers/bus/built-in.a := rm -f drivers/bus/built-in.a;  printf "drivers/bus/%s " omap_l3_smx.o omap_l3_noc.o omap-ocp2scp.o simple-pm-bus.o ti-pwmss.o ti-sysc.o mhi/built-in.a | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/bus/built-in.a

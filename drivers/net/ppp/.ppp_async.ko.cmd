@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/ppp_async.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ppp/ppp_async.ko drivers/net/ppp/ppp_async.o drivers/net/ppp/ppp_async.mod.o;  true

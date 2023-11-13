@@ -1,0 +1,1 @@
+cmd_net/sched/sch_ingress.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/sched/sch_ingress.ko net/sched/sch_ingress.o net/sched/sch_ingress.mod.o;  true

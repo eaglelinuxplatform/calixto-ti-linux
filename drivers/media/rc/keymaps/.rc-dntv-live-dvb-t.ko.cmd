@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dntv-live-dvb-t.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-dntv-live-dvb-t.ko drivers/media/rc/keymaps/rc-dntv-live-dvb-t.o drivers/media/rc/keymaps/rc-dntv-live-dvb-t.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_nokia.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_nokia.ko drivers/usb/gadget/legacy/g_nokia.o drivers/usb/gadget/legacy/g_nokia.mod.o;  true

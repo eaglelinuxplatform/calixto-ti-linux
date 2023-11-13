@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-odroid.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-odroid.ko drivers/media/rc/keymaps/rc-odroid.o drivers/media/rc/keymaps/rc-odroid.mod.o;  true

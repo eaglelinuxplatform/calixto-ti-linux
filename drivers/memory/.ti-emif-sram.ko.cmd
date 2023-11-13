@@ -1,0 +1,1 @@
+cmd_drivers/memory/ti-emif-sram.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/memory/ti-emif-sram.ko drivers/memory/ti-emif-sram.o drivers/memory/ti-emif-sram.mod.o;  true

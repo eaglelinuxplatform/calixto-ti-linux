@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/omap3-rom-rng.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/char/hw_random/omap3-rom-rng.ko drivers/char/hw_random/omap3-rom-rng.o drivers/char/hw_random/omap3-rom-rng.mod.o;  true

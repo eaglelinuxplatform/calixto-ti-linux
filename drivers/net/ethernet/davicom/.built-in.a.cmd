@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/davicom/built-in.a := rm -f drivers/net/ethernet/davicom/built-in.a;  printf "drivers/net/ethernet/davicom/%s " dm9000.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/net/ethernet/davicom/built-in.a

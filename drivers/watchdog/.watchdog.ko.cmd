@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/watchdog.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/watchdog.ko drivers/watchdog/watchdog.o drivers/watchdog/watchdog.mod.o;  true

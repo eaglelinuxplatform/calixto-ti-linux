@@ -1,0 +1,1 @@
+cmd_arch/arm/built-in.a := rm -f arch/arm/built-in.a;  printf "arch/arm/%s " vfp/built-in.a vdso/built-in.a kernel/built-in.a mm/built-in.a common/built-in.a probes/built-in.a net/built-in.a crypto/built-in.a | xargs arm-oe-linux-gnueabi-ar cDPrST arch/arm/built-in.a

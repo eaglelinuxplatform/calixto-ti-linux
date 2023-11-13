@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i2c/tda998x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/i2c/tda998x.ko drivers/gpu/drm/i2c/tda998x.o drivers/gpu/drm/i2c/tda998x.mod.o;  true

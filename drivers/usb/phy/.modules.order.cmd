@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/modules.order := {   echo drivers/usb/phy/phy-generic.ko;   echo drivers/usb/phy/phy-am335x-control.ko;   echo drivers/usb/phy/phy-am335x.ko;   echo drivers/usb/phy/phy-twl6030-usb.ko; :; } > drivers/usb/phy/modules.order

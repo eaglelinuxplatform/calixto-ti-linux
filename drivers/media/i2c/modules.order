@@ -1,0 +1,4 @@
+drivers/media/i2c/aptina-pll.ko
+drivers/media/i2c/ir-kbd-i2c.ko
+drivers/media/i2c/mt9p031.ko
+drivers/media/i2c/tvp5150.ko

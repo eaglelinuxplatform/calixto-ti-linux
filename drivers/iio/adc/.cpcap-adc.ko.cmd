@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/cpcap-adc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/cpcap-adc.ko drivers/iio/adc/cpcap-adc.o drivers/iio/adc/cpcap-adc.mod.o;  true

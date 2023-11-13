@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_fib_inet.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_fib_inet.ko net/netfilter/nft_fib_inet.o net/netfilter/nft_fib_inet.mod.o;  true

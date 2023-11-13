@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap3pandora.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-omap3pandora.ko sound/soc/ti/snd-soc-omap3pandora.o sound/soc/ti/snd-soc-omap3pandora.mod.o;  true

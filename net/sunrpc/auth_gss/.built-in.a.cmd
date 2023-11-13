@@ -1,0 +1,1 @@
+cmd_net/sunrpc/auth_gss/built-in.a := rm -f net/sunrpc/auth_gss/built-in.a;  printf "net/sunrpc/auth_gss/%s " auth_gss.o gss_generic_token.o gss_mech_switch.o svcauth_gss.o gss_rpc_upcall.o gss_rpc_xdr.o trace.o | xargs arm-oe-linux-gnueabi-ar cDPrST net/sunrpc/auth_gss/built-in.a

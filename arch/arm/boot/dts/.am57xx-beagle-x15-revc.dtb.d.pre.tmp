@@ -1,0 +1,21 @@
+am57xx-beagle-x15-revc.o: arch/arm/boot/dts/am57xx-beagle-x15-revc.dts \
+ arch/arm/boot/dts/am57xx-beagle-x15-common.dtsi \
+ arch/arm/boot/dts/am5728.dtsi arch/arm/boot/dts/dra74x.dtsi \
+ arch/arm/boot/dts/dra7.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/dra7.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/dra.h \
+ arch/arm/boot/dts/omap4-cpu-thermal.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm/boot/dts/omap5-gpu-thermal.dtsi \
+ arch/arm/boot/dts/omap5-core-thermal.dtsi \
+ arch/arm/boot/dts/dra7-dspeve-thermal.dtsi \
+ arch/arm/boot/dts/dra7-iva-thermal.dtsi arch/arm/boot/dts/dra7-l4.dtsi \
+ arch/arm/boot/dts/dra7xx-clocks.dtsi arch/arm/boot/dts/am57-pruss.dtsi \
+ arch/arm/boot/dts/am57xx-commercial-grade.dtsi \
+ arch/arm/boot/dts/dra74x-mmc-iodelay.dtsi \
+ arch/arm/boot/dts/dra74-ipu-dsp-common.dtsi \
+ arch/arm/boot/dts/dra7-ipu-dsp-common.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

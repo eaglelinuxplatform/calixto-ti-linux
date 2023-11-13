@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/twl4030_keypad.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/twl4030_keypad.ko drivers/input/keyboard/twl4030_keypad.o drivers/input/keyboard/twl4030_keypad.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_crypto/sha256_generic.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o crypto/sha256_generic.ko crypto/sha256_generic.o crypto/sha256_generic.mod.o;  true

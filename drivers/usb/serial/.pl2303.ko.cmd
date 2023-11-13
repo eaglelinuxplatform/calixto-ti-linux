@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/pl2303.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/pl2303.ko drivers/usb/serial/pl2303.o drivers/usb/serial/pl2303.mod.o;  true

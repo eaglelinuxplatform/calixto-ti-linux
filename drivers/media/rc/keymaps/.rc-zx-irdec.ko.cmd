@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-zx-irdec.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-zx-irdec.ko drivers/media/rc/keymaps/rc-zx-irdec.o drivers/media/rc/keymaps/rc-zx-irdec.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/gpio_backlight.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/gpio_backlight.ko drivers/video/backlight/gpio_backlight.o drivers/video/backlight/gpio_backlight.mod.o;  true

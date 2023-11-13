@@ -1,0 +1,1 @@
+arch/arm/boot/dts/omap4-panda-es.dtb: arch/arm/boot/dts/.omap4-panda-es.dtb.dts.tmp arch/arm/boot/dts/omap446x-clocks.dtsi

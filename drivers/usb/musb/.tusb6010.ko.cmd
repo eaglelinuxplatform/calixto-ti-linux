@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/tusb6010.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/musb/tusb6010.ko drivers/usb/musb/tusb6010.o drivers/usb/musb/tusb6010.mod.o;  true

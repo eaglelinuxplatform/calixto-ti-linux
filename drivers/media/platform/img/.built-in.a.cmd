@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/img/built-in.a := rm -f drivers/media/platform/img/built-in.a;  printf "drivers/media/platform/img/%s " vxe-vxd/built-in.a e5010/built-in.a | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/media/platform/img/built-in.a

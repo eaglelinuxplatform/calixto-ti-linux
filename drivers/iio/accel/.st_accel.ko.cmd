@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/st_accel.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/st_accel.ko drivers/iio/accel/st_accel.o drivers/iio/accel/st_accel.mod.o;  true

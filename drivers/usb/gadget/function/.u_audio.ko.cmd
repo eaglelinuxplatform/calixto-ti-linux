@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_audio.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/u_audio.ko drivers/usb/gadget/function/u_audio.o drivers/usb/gadget/function/u_audio.mod.o;  true

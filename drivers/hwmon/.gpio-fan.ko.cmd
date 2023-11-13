@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/gpio-fan.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/gpio-fan.ko drivers/hwmon/gpio-fan.o drivers/hwmon/gpio-fan.mod.o;  true

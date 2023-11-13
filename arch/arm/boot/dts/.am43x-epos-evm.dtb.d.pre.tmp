@@ -1,0 +1,11 @@
+am43x-epos-evm.o: arch/arm/boot/dts/am43x-epos-evm.dts \
+ arch/arm/boot/dts/am4372.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/am4.h \
+ arch/arm/boot/dts/am437x-l4.dtsi arch/arm/boot/dts/am43xx-clocks.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/am43xx.h \
+ scripts/dtc/include-prefixes/dt-bindings/pwm/pwm.h \
+ scripts/dtc/include-prefixes/dt-bindings/sound/tlv320aic31xx.h

@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap-mcpdm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-omap-mcpdm.ko sound/soc/ti/snd-soc-omap-mcpdm.o sound/soc/ti/snd-soc-omap-mcpdm.mod.o;  true

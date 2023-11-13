@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/modules.order := {   cat drivers/media/rc/keymaps/modules.order;   echo drivers/media/rc/rc-core.ko;   echo drivers/media/rc/gpio-ir-tx.ko;   echo drivers/media/rc/pwm-ir-tx.ko;   echo drivers/media/rc/ir-rx51.ko;   echo drivers/media/rc/ir-spi.ko; :; } > drivers/media/rc/modules.order

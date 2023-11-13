@@ -1,0 +1,2 @@
+am57xx-idk-lcd-osd101t2045.o: \
+ arch/arm/boot/dts/am57xx-idk-lcd-osd101t2045.dtso

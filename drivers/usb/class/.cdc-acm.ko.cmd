@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/cdc-acm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/class/cdc-acm.ko drivers/usb/class/cdc-acm.o drivers/usb/class/cdc-acm.mod.o;  true

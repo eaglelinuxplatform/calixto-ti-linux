@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/it913x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/it913x.ko drivers/media/tuners/it913x.o drivers/media/tuners/it913x.mod.o;  true

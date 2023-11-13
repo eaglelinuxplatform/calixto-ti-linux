@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ipt_CLUSTERIP.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/ipt_CLUSTERIP.ko net/ipv4/netfilter/ipt_CLUSTERIP.o net/ipv4/netfilter/ipt_CLUSTERIP.mod.o;  true

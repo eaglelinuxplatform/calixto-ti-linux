@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbmouse.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/usbhid/usbmouse.ko drivers/hid/usbhid/usbmouse.o drivers/hid/usbhid/usbmouse.mod.o;  true

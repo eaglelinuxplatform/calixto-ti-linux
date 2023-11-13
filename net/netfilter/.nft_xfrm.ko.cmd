@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_xfrm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_xfrm.ko net/netfilter/nft_xfrm.o net/netfilter/nft_xfrm.mod.o;  true

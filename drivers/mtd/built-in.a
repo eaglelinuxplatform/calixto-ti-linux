@@ -1,0 +1,107 @@
+!<thin>
+//                                              932       `
+mtdcore.o/
+mtdsuper.o/
+mtdconcat.o/
+mtdpart.o/
+mtdchar.o/
+parsers/cmdlinepart.o/
+parsers/ofpart_core.o/
+mtd_blkdevs.o/
+mtdblock.o/
+mtdoops.o/
+chips/chipreg.o/
+chips/cfi_probe.o/
+chips/cfi_util.o/
+chips/cfi_cmdset_0001.o/
+chips/gen_probe.o/
+maps/physmap-core.o/
+nand/core.o/
+nand/bbt.o/
+nand/ecc.o/
+nand/ecc-sw-hamming.o/
+nand/ecc-sw-bch.o/
+nand/onenand/onenand_base.o/
+nand/onenand/onenand_bbt.o/
+nand/onenand/onenand_omap2.o/
+nand/raw/nand_base.o/
+nand/raw/nand_legacy.o/
+nand/raw/nand_bbt.o/
+nand/raw/nand_timings.o/
+nand/raw/nand_ids.o/
+nand/raw/nand_onfi.o/
+nand/raw/nand_jedec.o/
+nand/raw/nand_amd.o/
+nand/raw/nand_esmt.o/
+nand/raw/nand_hynix.o/
+nand/raw/nand_macronix.o/
+nand/raw/nand_micron.o/
+nand/raw/nand_samsung.o/
+nand/raw/nand_toshiba.o/
+nand/raw/omap2.o/
+nand/raw/omap_elm.o/
+ubi/vtbl.o/
+ubi/vmt.o/
+ubi/upd.o/
+ubi/build.o/
+ubi/cdev.o/
+ubi/kapi.o/
+ubi/eba.o/
+ubi/io.o/
+ubi/wl.o/
+ubi/attach.o/
+ubi/misc.o/
+ubi/debug.o/
+
+/0              0           0     0     644     116680    `
+/11             0           0     0     644     20648     `
+/23             0           0     0     644     41744     `
+/36             0           0     0     644     44760     `
+/47             0           0     0     644     82872     `
+/58             0           0     0     644     23940     `
+/81             0           0     0     644     24660     `
+/104            0           0     0     644     49152     `
+/119            0           0     0     644     26720     `
+/131            0           0     0     644     33368     `
+/142            0           0     0     644     19760     `
+/159            0           0     0     644     25020     `
+/178            0           0     0     644     30168     `
+/196            0           0     0     644     96232     `
+/221            0           0     0     644     20700     `
+/240            0           0     0     644     32704     `
+/261            0           0     0     644     30624     `
+/274            0           0     0     644     17528     `
+/286            0           0     0     644     38716     `
+/298            0           0     0     644     28804     `
+/321            0           0     0     644     26020     `
+/340            0           0     0     644     94356     `
+/369            0           0     0     644     17080     `
+/397            0           0     0     644     49964     `
+/427            0           0     0     644     197272    `
+/449            0           0     0     644     29932     `
+/473            0           0     0     644     48388     `
+/494            0           0     0     644     20304     `
+/519            0           0     0     644     20896     `
+/540            0           0     0     644     17780     `
+/562            0           0     0     644     13988     `
+/585            0           0     0     644     15340     `
+/606            0           0     0     644     16160     `
+/628            0           0     0     644     30828     `
+/651            0           0     0     644     24472     `
+/677            0           0     0     644     28084     `
+/701            0           0     0     644     17520     `
+/726            0           0     0     644     23804     `
+/751            0           0     0     644     82144     `
+/769            0           0     0     644     36740     `
+/790            0           0     0     644     38656     `
+/802            0           0     0     644     47992     `
+/813            0           0     0     644     28260     `
+/824            0           0     0     644     62388     `
+/837            0           0     0     644     61612     `
+/849            0           0     0     644     42556     `
+/861            0           0     0     644     65208     `
+/872            0           0     0     644     55656     `
+/882            0           0     0     644     83096     `
+/892            0           0     0     644     54568     `
+/906            0           0     0     644     18072     `
+/918            0           0     0     644     42200     `

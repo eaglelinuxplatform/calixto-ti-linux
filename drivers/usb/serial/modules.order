@@ -1,0 +1,6 @@
+drivers/usb/serial/usbserial.ko
+drivers/usb/serial/ftdi_sio.ko
+drivers/usb/serial/option.ko
+drivers/usb/serial/pl2303.ko
+drivers/usb/serial/usb-serial-simple.ko
+drivers/usb/serial/usb_wwan.ko

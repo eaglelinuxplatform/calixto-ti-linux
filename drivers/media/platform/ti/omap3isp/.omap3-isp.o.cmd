@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/ti/omap3isp/omap3-isp.o := arm-oe-linux-gnueabi-ld -EL -z noexecstack   -r -o drivers/media/platform/ti/omap3isp/omap3-isp.o @drivers/media/platform/ti/omap3isp/omap3-isp.mod 

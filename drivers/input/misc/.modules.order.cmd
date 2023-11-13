@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/modules.order := {   echo drivers/input/misc/cpcap-pwrbutton.ko;   echo drivers/input/misc/palmas-pwrbutton.ko;   echo drivers/input/misc/pwm-vibra.ko;   echo drivers/input/misc/tps65218-pwrbutton.ko;   echo drivers/input/misc/twl4030-pwrbutton.ko;   echo drivers/input/misc/uinput.ko; :; } > drivers/input/misc/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-cpcap.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-cpcap.ko drivers/rtc/rtc-cpcap.o drivers/rtc/rtc-cpcap.mod.o;  true

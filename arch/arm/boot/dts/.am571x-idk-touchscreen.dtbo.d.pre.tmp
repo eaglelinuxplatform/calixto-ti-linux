@@ -1,0 +1,3 @@
+am571x-idk-touchscreen.o: arch/arm/boot/dts/am571x-idk-touchscreen.dtso \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-cpcap.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-cpcap.ko drivers/leds/leds-cpcap.o drivers/leds/leds-cpcap.mod.o;  true

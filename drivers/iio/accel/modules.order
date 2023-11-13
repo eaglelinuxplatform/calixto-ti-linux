@@ -1,0 +1,4 @@
+drivers/iio/accel/kxcjk-1013.ko
+drivers/iio/accel/st_accel.ko
+drivers/iio/accel/st_accel_i2c.ko
+drivers/iio/accel/st_accel_spi.ko

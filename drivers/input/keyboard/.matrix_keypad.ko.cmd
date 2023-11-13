@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/matrix_keypad.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/matrix_keypad.ko drivers/input/keyboard/matrix_keypad.o drivers/input/keyboard/matrix_keypad.mod.o;  true

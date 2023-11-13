@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/modules.order := {   echo drivers/video/backlight/gpio_backlight.ko;   echo drivers/video/backlight/pandora_bl.ko;   echo drivers/video/backlight/pwm_bl.ko;   echo drivers/video/backlight/led_bl.ko; :; } > drivers/video/backlight/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/cpcap-charger.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/cpcap-charger.ko drivers/power/supply/cpcap-charger.o drivers/power/supply/cpcap-charger.mod.o;  true

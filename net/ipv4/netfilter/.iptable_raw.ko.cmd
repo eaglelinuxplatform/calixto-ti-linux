@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/iptable_raw.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/iptable_raw.ko net/ipv4/netfilter/iptable_raw.o net/ipv4/netfilter/iptable_raw.mod.o;  true

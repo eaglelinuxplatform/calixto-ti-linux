@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dvico-portable.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-dvico-portable.ko drivers/media/rc/keymaps/rc-dvico-portable.o drivers/media/rc/keymaps/rc-dvico-portable.mod.o;  true

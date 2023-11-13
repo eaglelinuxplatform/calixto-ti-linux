@@ -1,0 +1,1 @@
+cmd_drivers/input/mousedev.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/mousedev.ko drivers/input/mousedev.o drivers/input/mousedev.mod.o;  true

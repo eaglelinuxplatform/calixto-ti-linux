@@ -1,0 +1,3 @@
+drivers/net/wireless/marvell/mwifiex/mwifiex.ko
+drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko
+drivers/net/wireless/marvell/mwifiex/mwifiex_usb.ko

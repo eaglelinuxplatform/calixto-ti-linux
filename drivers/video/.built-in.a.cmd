@@ -1,0 +1,1 @@
+cmd_drivers/video/built-in.a := rm -f drivers/video/built-in.a;  printf "drivers/video/%s " hdmi.o console/built-in.a logo/built-in.a backlight/built-in.a fbdev/built-in.a display_timing.o videomode.o of_display_timing.o of_videomode.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/video/built-in.a

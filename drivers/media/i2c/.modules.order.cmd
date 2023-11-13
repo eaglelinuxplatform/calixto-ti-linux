@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/modules.order := {   echo drivers/media/i2c/aptina-pll.ko;   echo drivers/media/i2c/ir-kbd-i2c.ko;   echo drivers/media/i2c/mt9p031.ko;   echo drivers/media/i2c/tvp5150.ko; :; } > drivers/media/i2c/modules.order

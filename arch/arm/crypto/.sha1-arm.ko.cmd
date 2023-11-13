@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha1-arm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/arm/crypto/sha1-arm.ko arch/arm/crypto/sha1-arm.o arch/arm/crypto/sha1-arm.mod.o;  true

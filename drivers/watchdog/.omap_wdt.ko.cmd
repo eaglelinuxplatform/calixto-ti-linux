@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/omap_wdt.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/omap_wdt.ko drivers/watchdog/omap_wdt.o drivers/watchdog/omap_wdt.mod.o;  true

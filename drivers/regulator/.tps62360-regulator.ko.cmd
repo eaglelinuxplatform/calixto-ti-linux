@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps62360-regulator.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/tps62360-regulator.ko drivers/regulator/tps62360-regulator.o drivers/regulator/tps62360-regulator.mod.o;  true

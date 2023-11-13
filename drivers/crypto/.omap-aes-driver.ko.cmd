@@ -1,0 +1,1 @@
+cmd_drivers/crypto/omap-aes-driver.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/crypto/omap-aes-driver.ko drivers/crypto/omap-aes-driver.o drivers/crypto/omap-aes-driver.mod.o;  true

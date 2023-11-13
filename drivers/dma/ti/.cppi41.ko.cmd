@@ -1,0 +1,1 @@
+cmd_drivers/dma/ti/cppi41.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/dma/ti/cppi41.ko drivers/dma/ti/cppi41.o drivers/dma/ti/cppi41.mod.o;  true

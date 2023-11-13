@@ -1,0 +1,1 @@
+cmd_drivers/usb/core/usbcore.mod := printf '%s\n'   usb.o hub.o hcd.o urb.o message.o driver.o config.o file.o buffer.o sysfs.o endpoint.o devio.o notify.o generic.o quirks.o devices.o phy.o port.o of.o hcd-pci.o | awk '!x[$$0]++ { print("drivers/usb/core/"$$0) }' > drivers/usb/core/usbcore.mod

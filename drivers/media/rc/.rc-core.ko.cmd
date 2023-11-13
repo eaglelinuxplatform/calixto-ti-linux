@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/rc-core.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/rc-core.ko drivers/media/rc/rc-core.o drivers/media/rc/rc-core.mod.o;  true

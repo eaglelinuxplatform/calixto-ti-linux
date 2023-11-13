@@ -1,0 +1,1 @@
+cmd_drivers/iio/buffer/kfifo_buf.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/buffer/kfifo_buf.ko drivers/iio/buffer/kfifo_buf.o drivers/iio/buffer/kfifo_buf.mod.o;  true

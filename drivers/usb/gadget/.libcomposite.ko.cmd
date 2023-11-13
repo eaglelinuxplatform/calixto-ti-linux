@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/libcomposite.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/libcomposite.ko drivers/usb/gadget/libcomposite.o drivers/usb/gadget/libcomposite.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-twl4030-usb.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/ti/phy-twl4030-usb.ko drivers/phy/ti/phy-twl4030-usb.o drivers/phy/ti/phy-twl4030-usb.mod.o;  true

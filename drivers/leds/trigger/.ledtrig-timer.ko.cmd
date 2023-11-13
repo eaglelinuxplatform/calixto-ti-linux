@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-timer.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-timer.ko drivers/leds/trigger/ledtrig-timer.o drivers/leds/trigger/ledtrig-timer.mod.o;  true

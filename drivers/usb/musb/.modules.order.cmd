@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/modules.order := {   echo drivers/usb/musb/musb_hdrc.ko;   echo drivers/usb/musb/omap2430.ko;   echo drivers/usb/musb/am35x.ko;   echo drivers/usb/musb/musb_dsps.ko;   echo drivers/usb/musb/tusb6010.ko; :; } > drivers/usb/musb/modules.order

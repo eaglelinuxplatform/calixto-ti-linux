@@ -1,0 +1,3 @@
+net/bridge/netfilter/nft_meta_bridge.ko
+net/bridge/netfilter/nft_reject_bridge.ko
+net/bridge/bridge.ko

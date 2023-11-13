@@ -1,0 +1,1 @@
+cmd_drivers/ata/ahci_dm816.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/ata/ahci_dm816.ko drivers/ata/ahci_dm816.o drivers/ata/ahci_dm816.mod.o;  true

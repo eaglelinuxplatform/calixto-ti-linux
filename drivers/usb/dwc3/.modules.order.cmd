@@ -1,0 +1,1 @@
+cmd_drivers/usb/dwc3/modules.order := {   echo drivers/usb/dwc3/dwc3.ko;   echo drivers/usb/dwc3/dwc3-omap.ko;   echo drivers/usb/dwc3/dwc3-haps.ko;   echo drivers/usb/dwc3/dwc3-of-simple.ko; :; } > drivers/usb/dwc3/modules.order

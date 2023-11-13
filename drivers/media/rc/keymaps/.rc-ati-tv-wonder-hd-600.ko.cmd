@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.ko drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.o drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_panel_orientation_quirks.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/drm_panel_orientation_quirks.ko drivers/gpu/drm/drm_panel_orientation_quirks.o drivers/gpu/drm/drm_panel_orientation_quirks.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/usbtest.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/usbtest.ko drivers/usb/misc/usbtest.o drivers/usb/misc/usbtest.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lp55xx-common.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-lp55xx-common.ko drivers/leds/leds-lp55xx-common.o drivers/leds/leds-lp55xx-common.mod.o;  true

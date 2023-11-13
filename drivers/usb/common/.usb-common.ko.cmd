@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/usb-common.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/common/usb-common.ko drivers/usb/common/usb-common.o drivers/usb/common/usb-common.mod.o;  true

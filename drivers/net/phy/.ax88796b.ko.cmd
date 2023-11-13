@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/ax88796b.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/ax88796b.ko drivers/net/phy/ax88796b.o drivers/net/phy/ax88796b.mod.o;  true

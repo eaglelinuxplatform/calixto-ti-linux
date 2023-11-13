@@ -1,0 +1,1 @@
+cmd_drivers/soc/ti/wkup_m3_ipc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/soc/ti/wkup_m3_ipc.ko drivers/soc/ti/wkup_m3_ipc.o drivers/soc/ti/wkup_m3_ipc.mod.o;  true

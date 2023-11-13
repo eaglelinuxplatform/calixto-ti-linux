@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/omap_hdq.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/w1/masters/omap_hdq.ko drivers/w1/masters/omap_hdq.o drivers/w1/masters/omap_hdq.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/ghash-arm-ce.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/arm/crypto/ghash-arm-ce.ko arch/arm/crypto/ghash-arm-ce.o arch/arm/crypto/ghash-arm-ce.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/mb86a20s.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/mb86a20s.ko drivers/media/dvb-frontends/mb86a20s.o drivers/media/dvb-frontends/mb86a20s.mod.o;  true

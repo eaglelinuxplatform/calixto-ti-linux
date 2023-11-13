@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/usb-storage.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/usb-storage.ko drivers/usb/storage/usb-storage.o drivers/usb/storage/usb-storage.mod.o;  true

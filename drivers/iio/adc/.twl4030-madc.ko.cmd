@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/twl4030-madc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/twl4030-madc.ko drivers/iio/adc/twl4030-madc.o drivers/iio/adc/twl4030-madc.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.a := rm -f drivers/mfd/built-in.a;  printf "drivers/mfd/%s " lp873x.o lp87565.o tps65217.o tps65218.o tps65910.o menelaus.o twl-core.o twl4030-irq.o twl6030-irq.o twl4030-power.o twl4030-audio.o twl6040.o mfd-core.o motorola-cpcap.o omap-usb-host.o omap-usb-tll.o palmas.o syscon.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/mfd/built-in.a

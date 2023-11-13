@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-ti-qspi.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-ti-qspi.ko drivers/spi/spi-ti-qspi.o drivers/spi/spi-ti-qspi.mod.o;  true

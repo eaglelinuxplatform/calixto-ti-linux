@@ -1,0 +1,1 @@
+cmd_drivers/counter/ti-eqep.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/counter/ti-eqep.ko drivers/counter/ti-eqep.o drivers/counter/ti-eqep.mod.o;  true

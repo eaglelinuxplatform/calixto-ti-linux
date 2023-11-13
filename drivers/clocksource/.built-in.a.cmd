@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.a := rm -f drivers/clocksource/built-in.a;  printf "drivers/clocksource/%s " timer-of.o timer-probe.o mmio.o timer-ti-dm.o timer-ti-dm-systimer.o timer-ti-32k.o arm_arch_timer.o dummy_timer.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/clocksource/built-in.a

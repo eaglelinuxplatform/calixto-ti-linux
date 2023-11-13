@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/isp1704_charger.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/isp1704_charger.ko drivers/power/supply/isp1704_charger.o drivers/power/supply/isp1704_charger.mod.o;  true

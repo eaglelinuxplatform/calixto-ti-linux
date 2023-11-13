@@ -1,0 +1,21 @@
+dra71-evm.o: arch/arm/boot/dts/dra71-evm.dts \
+ arch/arm/boot/dts/dra71x.dtsi arch/arm/boot/dts/dra72-evm-common.dtsi \
+ arch/arm/boot/dts/dra72x.dtsi arch/arm/boot/dts/dra7.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/dra7.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/dra.h \
+ arch/arm/boot/dts/omap4-cpu-thermal.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm/boot/dts/omap5-gpu-thermal.dtsi \
+ arch/arm/boot/dts/omap5-core-thermal.dtsi \
+ arch/arm/boot/dts/dra7-dspeve-thermal.dtsi \
+ arch/arm/boot/dts/dra7-iva-thermal.dtsi arch/arm/boot/dts/dra7-l4.dtsi \
+ arch/arm/boot/dts/dra7xx-clocks.dtsi \
+ arch/arm/boot/dts/dra7-ipu-dsp-common.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/ti-dra7-atl.h \
+ arch/arm/boot/dts/dra7-mmc-iodelay.dtsi \
+ arch/arm/boot/dts/dra72x-mmc-iodelay.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/net/ti-dp83867.h

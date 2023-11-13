@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/isl6405.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/isl6405.ko drivers/media/dvb-frontends/isl6405.o drivers/media/dvb-frontends/isl6405.mod.o;  true

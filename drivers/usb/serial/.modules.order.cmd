@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/modules.order := {   echo drivers/usb/serial/usbserial.ko;   echo drivers/usb/serial/ftdi_sio.ko;   echo drivers/usb/serial/option.ko;   echo drivers/usb/serial/pl2303.ko;   echo drivers/usb/serial/usb-serial-simple.ko;   echo drivers/usb/serial/usb_wwan.ko; :; } > drivers/usb/serial/modules.order

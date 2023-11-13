@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/palmas-pwrbutton.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/palmas-pwrbutton.ko drivers/input/misc/palmas-pwrbutton.o drivers/input/misc/palmas-pwrbutton.mod.o;  true

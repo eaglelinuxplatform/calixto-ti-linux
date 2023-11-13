@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-geekbox.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-geekbox.ko drivers/media/rc/keymaps/rc-geekbox.o drivers/media/rc/keymaps/rc-geekbox.mod.o;  true

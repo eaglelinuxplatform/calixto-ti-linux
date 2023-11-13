@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dvb-pll.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/dvb-pll.ko drivers/media/dvb-frontends/dvb-pll.o drivers/media/dvb-frontends/dvb-pll.mod.o;  true

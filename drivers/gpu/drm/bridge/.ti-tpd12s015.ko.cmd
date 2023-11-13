@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/ti-tpd12s015.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/bridge/ti-tpd12s015.ko drivers/gpu/drm/bridge/ti-tpd12s015.o drivers/gpu/drm/bridge/ti-tpd12s015.mod.o;  true

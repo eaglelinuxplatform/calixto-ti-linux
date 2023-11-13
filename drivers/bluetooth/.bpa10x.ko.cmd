@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bpa10x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/bluetooth/bpa10x.ko drivers/bluetooth/bpa10x.o drivers/bluetooth/bpa10x.mod.o;  true

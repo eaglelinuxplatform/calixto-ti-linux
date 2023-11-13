@@ -1,0 +1,1 @@
+cmd_drivers/usb/core/usbcore.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/core/usbcore.ko drivers/usb/core/usbcore.o drivers/usb/core/usbcore.mod.o;  true

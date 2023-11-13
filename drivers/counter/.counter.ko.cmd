@@ -1,0 +1,1 @@
+cmd_drivers/counter/counter.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/counter/counter.ko drivers/counter/counter.o drivers/counter/counter.mod.o;  true

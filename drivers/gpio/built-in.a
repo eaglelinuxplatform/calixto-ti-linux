@@ -1,0 +1,24 @@
+!<thin>
+//                                              170       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-of.o/
+gpiolib-cdev.o/
+gpiolib-sysfs.o/
+gpio-lp87565.o/
+gpio-omap.o/
+gpio-palmas.o/
+gpio-pcf857x.o/
+gpio-twl4030.o/
+/0              0           0     0     644     239500    `
+/11             0           0     0     644     27588     `
+/29             0           0     0     644     16344     `
+/47             0           0     0     644     40692     `
+/61             0           0     0     644     109440    `
+/77             0           0     0     644     40736     `
+/94             0           0     0     644     24160     `
+/110            0           0     0     644     73764     `
+/123            0           0     0     644     27136     `
+/138            0           0     0     644     35048     `
+/154            0           0     0     644     36492     `

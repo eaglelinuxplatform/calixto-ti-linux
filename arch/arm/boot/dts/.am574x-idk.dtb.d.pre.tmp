@@ -1,0 +1,23 @@
+am574x-idk.o: arch/arm/boot/dts/am574x-idk.dts \
+ arch/arm/boot/dts/am5748.dtsi arch/arm/boot/dts/dra74x-p.dtsi \
+ arch/arm/boot/dts/dra74x.dtsi arch/arm/boot/dts/dra7.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/dra7.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/dra.h \
+ arch/arm/boot/dts/omap4-cpu-thermal.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm/boot/dts/omap5-gpu-thermal.dtsi \
+ arch/arm/boot/dts/omap5-core-thermal.dtsi \
+ arch/arm/boot/dts/dra7-dspeve-thermal.dtsi \
+ arch/arm/boot/dts/dra7-iva-thermal.dtsi arch/arm/boot/dts/dra7-l4.dtsi \
+ arch/arm/boot/dts/dra7xx-clocks.dtsi arch/arm/boot/dts/am57-pruss.dtsi \
+ arch/arm/boot/dts/dra7-mmc-iodelay.dtsi \
+ arch/arm/boot/dts/dra76x-mmc-iodelay.dtsi \
+ arch/arm/boot/dts/am572x-idk-common.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ arch/arm/boot/dts/am57xx-idk-common.dtsi \
+ arch/arm/boot/dts/am57xx-industrial-grade.dtsi \
+ arch/arm/boot/dts/dra74-ipu-dsp-common.dtsi \
+ arch/arm/boot/dts/dra7-ipu-dsp-common.dtsi

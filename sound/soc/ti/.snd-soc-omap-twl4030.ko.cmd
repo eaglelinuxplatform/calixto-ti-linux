@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap-twl4030.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-omap-twl4030.ko sound/soc/ti/snd-soc-omap-twl4030.o sound/soc/ti/snd-soc-omap-twl4030.mod.o;  true

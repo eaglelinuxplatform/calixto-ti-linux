@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/mxl5xx.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/mxl5xx.ko drivers/media/dvb-frontends/mxl5xx.o drivers/media/dvb-frontends/mxl5xx.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-davinci-mcasp.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-davinci-mcasp.ko sound/soc/ti/snd-soc-davinci-mcasp.o sound/soc/ti/snd-soc-davinci-mcasp.mod.o;  true

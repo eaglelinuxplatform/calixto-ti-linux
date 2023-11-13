@@ -1,0 +1,1 @@
+cmd_security/keys/built-in.a := rm -f security/keys/built-in.a;  printf "security/keys/%s " gc.o key.o keyring.o keyctl.o permission.o process_keys.o request_key.o request_key_auth.o user_defined.o proc.o sysctl.o keyctl_pkey.o | xargs arm-oe-linux-gnueabi-ar cDPrST security/keys/built-in.a

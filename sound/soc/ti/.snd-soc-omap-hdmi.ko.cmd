@@ -1,0 +1,1 @@
+cmd_sound/soc/ti/snd-soc-omap-hdmi.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-omap-hdmi.ko sound/soc/ti/snd-soc-omap-hdmi.o sound/soc/ti/snd-soc-omap-hdmi.mod.o;  true

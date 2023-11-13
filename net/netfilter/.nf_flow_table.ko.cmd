@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_flow_table.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_flow_table.ko net/netfilter/nf_flow_table.o net/netfilter/nf_flow_table.mod.o;  true

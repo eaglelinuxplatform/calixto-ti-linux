@@ -1,0 +1,1 @@
+cmd_drivers/soc/ti/pm33xx.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/soc/ti/pm33xx.ko drivers/soc/ti/pm33xx.o drivers/soc/ti/pm33xx.mod.o;  true

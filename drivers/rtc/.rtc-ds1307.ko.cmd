@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-ds1307.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-ds1307.ko drivers/rtc/rtc-ds1307.o drivers/rtc/rtc-ds1307.mod.o;  true

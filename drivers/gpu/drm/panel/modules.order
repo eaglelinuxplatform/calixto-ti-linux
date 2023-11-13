@@ -1,0 +1,9 @@
+drivers/gpu/drm/panel/panel-dsi-cm.ko
+drivers/gpu/drm/panel/panel-simple.ko
+drivers/gpu/drm/panel/panel-edp.ko
+drivers/gpu/drm/panel/panel-lg-lb035q02.ko
+drivers/gpu/drm/panel/panel-nec-nl8048hl11.ko
+drivers/gpu/drm/panel/panel-sharp-ls037v7dw01.ko
+drivers/gpu/drm/panel/panel-sony-acx565akm.ko
+drivers/gpu/drm/panel/panel-tpo-td028ttec1.ko
+drivers/gpu/drm/panel/panel-tpo-td043mtea1.ko

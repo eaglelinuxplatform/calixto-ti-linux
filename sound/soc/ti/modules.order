@@ -1,0 +1,12 @@
+sound/soc/ti/snd-soc-ti-edma.ko
+sound/soc/ti/snd-soc-ti-sdma.ko
+sound/soc/ti/snd-soc-ti-udma.ko
+sound/soc/ti/snd-soc-davinci-mcasp.ko
+sound/soc/ti/snd-soc-omap-dmic.ko
+sound/soc/ti/snd-soc-omap-mcbsp.ko
+sound/soc/ti/snd-soc-omap-mcpdm.ko
+sound/soc/ti/snd-soc-rx51.ko
+sound/soc/ti/snd-soc-omap3pandora.ko
+sound/soc/ti/snd-soc-omap-twl4030.ko
+sound/soc/ti/snd-soc-omap-abe-twl6040.ko
+sound/soc/ti/snd-soc-omap-hdmi.ko

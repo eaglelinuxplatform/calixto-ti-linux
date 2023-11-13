@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/atkbd.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/atkbd.ko drivers/input/keyboard/atkbd.o drivers/input/keyboard/atkbd.mod.o;  true

@@ -1,0 +1,4 @@
+drivers/hwmon/hwmon.ko
+drivers/hwmon/gpio-fan.ko
+drivers/hwmon/lm75.ko
+drivers/hwmon/tmp102.ko

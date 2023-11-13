@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kworld-pc150u.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-kworld-pc150u.ko drivers/media/rc/keymaps/rc-kworld-pc150u.o drivers/media/rc/keymaps/rc-kworld-pc150u.mod.o;  true

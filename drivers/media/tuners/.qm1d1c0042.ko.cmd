@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/qm1d1c0042.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/qm1d1c0042.ko drivers/media/tuners/qm1d1c0042.o drivers/media/tuners/qm1d1c0042.mod.o;  true

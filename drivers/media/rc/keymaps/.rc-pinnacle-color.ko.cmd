@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-pinnacle-color.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-pinnacle-color.ko drivers/media/rc/keymaps/rc-pinnacle-color.o drivers/media/rc/keymaps/rc-pinnacle-color.mod.o;  true

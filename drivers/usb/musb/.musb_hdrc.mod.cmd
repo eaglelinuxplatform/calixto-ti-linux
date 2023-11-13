@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/musb_hdrc.mod := printf '%s\n'   musb_core.o musb_trace.o musb_virthub.o musb_host.o musb_gadget_ep0.o musb_gadget.o musb_debugfs.o musbhsdma.o tusb6010_omap.o musb_cppi41.o | awk '!x[$$0]++ { print("drivers/usb/musb/"$$0) }' > drivers/usb/musb/musb_hdrc.mod

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/pwm-ir-tx.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/pwm-ir-tx.ko drivers/media/rc/pwm-ir-tx.o drivers/media/rc/pwm-ir-tx.mod.o;  true

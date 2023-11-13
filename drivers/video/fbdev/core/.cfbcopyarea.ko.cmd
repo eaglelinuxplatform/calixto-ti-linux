@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/cfbcopyarea.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/core/cfbcopyarea.ko drivers/video/fbdev/core/cfbcopyarea.o drivers/video/fbdev/core/cfbcopyarea.mod.o;  true

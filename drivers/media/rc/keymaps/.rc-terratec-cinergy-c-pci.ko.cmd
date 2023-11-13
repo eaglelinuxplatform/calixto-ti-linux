@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.ko drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.o drivers/media/rc/keymaps/rc-terratec-cinergy-c-pci.mod.o;  true

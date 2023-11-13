@@ -1,0 +1,49 @@
+!<thin>
+//                                              390       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+irq_helpers.o/
+of_regulator.o/
+fixed.o/
+cpcap-regulator.o/
+gpio-regulator.o/
+lp872x.o/
+lp873x-regulator.o/
+lp87565-regulator.o/
+palmas-regulator.o/
+pbias-regulator.o/
+ti-abb-regulator.o/
+tps65023-regulator.o/
+tps6507x-regulator.o/
+tps65217-regulator.o/
+tps65218-regulator.o/
+tps65910-regulator.o/
+twl-regulator.o/
+twl6030-regulator.o/
+
+/0              0           0     0     644     295540    `
+/8              0           0     0     644     19524     `
+/17             0           0     0     644     15504     `
+/33             0           0     0     644     46652     `
+/44             0           0     0     644     38792     `
+/54             0           0     0     644     28896     `
+/69             0           0     0     644     41712     `
+/85             0           0     0     644     27716     `
+/94             0           0     0     644     42460     `
+/113            0           0     0     644     29320     `
+/131            0           0     0     644     43076     `
+/141            0           0     0     644     25296     `
+/161            0           0     0     644     26128     `
+/182            0           0     0     644     59500     `
+/202            0           0     0     644     25476     `
+/221            0           0     0     644     41596     `
+/241            0           0     0     644     30672     `
+/263            0           0     0     644     29736     `
+/285            0           0     0     644     27508     `
+/307            0           0     0     644     29980     `
+/329            0           0     0     644     47992     `
+/351            0           0     0     644     44220     `
+/368            0           0     0     644     51476     `

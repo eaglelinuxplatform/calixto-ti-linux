@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-dm816x-usb.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/ti/phy-dm816x-usb.ko drivers/phy/ti/phy-dm816x-usb.o drivers/phy/ti/phy-dm816x-usb.mod.o;  true

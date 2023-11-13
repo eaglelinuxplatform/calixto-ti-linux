@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/mt9p031.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/mt9p031.ko drivers/media/i2c/mt9p031.o drivers/media/i2c/mt9p031.mod.o;  true

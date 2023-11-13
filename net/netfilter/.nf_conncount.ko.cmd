@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conncount.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_conncount.ko net/netfilter/nf_conncount.o net/netfilter/nf_conncount.mod.o;  true

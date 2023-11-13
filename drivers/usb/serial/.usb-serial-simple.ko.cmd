@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usb-serial-simple.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/usb-serial-simple.ko drivers/usb/serial/usb-serial-simple.o drivers/usb/serial/usb-serial-simple.mod.o;  true

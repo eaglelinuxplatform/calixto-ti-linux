@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/r8153_ecm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/r8153_ecm.ko drivers/net/usb/r8153_ecm.o drivers/net/usb/r8153_ecm.mod.o;  true

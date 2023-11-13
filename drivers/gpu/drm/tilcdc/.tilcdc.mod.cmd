@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tilcdc/tilcdc.mod := printf '%s\n'   tilcdc_plane.o tilcdc_crtc.o tilcdc_panel.o tilcdc_external.o tilcdc_drv.o | awk '!x[$$0]++ { print("drivers/gpu/drm/tilcdc/"$$0) }' > drivers/gpu/drm/tilcdc/tilcdc.mod

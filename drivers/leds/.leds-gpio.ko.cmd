@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-gpio.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-gpio.ko drivers/leds/leds-gpio.o drivers/leds/leds-gpio.mod.o;  true

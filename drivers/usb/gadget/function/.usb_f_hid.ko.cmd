@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_hid.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/usb_f_hid.ko drivers/usb/gadget/function/usb_f_hid.o drivers/usb/gadget/function/usb_f_hid.mod.o;  true

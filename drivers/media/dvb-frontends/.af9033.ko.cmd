@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/af9033.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/af9033.ko drivers/media/dvb-frontends/af9033.o drivers/media/dvb-frontends/af9033.mod.o;  true

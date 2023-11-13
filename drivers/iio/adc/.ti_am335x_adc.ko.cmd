@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ti_am335x_adc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/ti_am335x_adc.ko drivers/iio/adc/ti_am335x_adc.o drivers/iio/adc/ti_am335x_adc.mod.o;  true

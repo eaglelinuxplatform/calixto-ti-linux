@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/libps2.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/serio/libps2.ko drivers/input/serio/libps2.o drivers/input/serio/libps2.mod.o;  true

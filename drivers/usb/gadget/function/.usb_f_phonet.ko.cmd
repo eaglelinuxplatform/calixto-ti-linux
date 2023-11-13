@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_phonet.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/usb_f_phonet.ko drivers/usb/gadget/function/usb_f_phonet.o drivers/usb/gadget/function/usb_f_phonet.mod.o;  true

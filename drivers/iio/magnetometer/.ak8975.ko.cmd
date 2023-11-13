@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/ak8975.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/magnetometer/ak8975.ko drivers/iio/magnetometer/ak8975.o drivers/iio/magnetometer/ak8975.mod.o;  true

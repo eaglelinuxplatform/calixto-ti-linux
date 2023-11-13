@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ina2xx-adc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/ina2xx-adc.ko drivers/iio/adc/ina2xx-adc.o drivers/iio/adc/ina2xx-adc.mod.o;  true

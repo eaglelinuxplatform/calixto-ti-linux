@@ -1,0 +1,8 @@
+sound/core/oss/snd-mixer-oss.ko
+sound/core/oss/snd-pcm-oss.ko
+sound/core/snd.ko
+sound/core/snd-hwdep.ko
+sound/core/snd-timer.ko
+sound/core/snd-pcm.ko
+sound/core/snd-pcm-dmaengine.ko
+sound/core/snd-rawmidi.ko

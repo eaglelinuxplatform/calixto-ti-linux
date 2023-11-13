@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-palmas.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/clk-palmas.ko drivers/clk/clk-palmas.o drivers/clk/clk-palmas.mod.o;  true

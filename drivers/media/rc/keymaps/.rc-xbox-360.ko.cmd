@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-xbox-360.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-xbox-360.ko drivers/media/rc/keymaps/rc-xbox-360.o drivers/media/rc/keymaps/rc-xbox-360.mod.o;  true

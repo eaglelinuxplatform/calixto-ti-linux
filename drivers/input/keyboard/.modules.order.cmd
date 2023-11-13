@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/modules.order := {   echo drivers/input/keyboard/atkbd.ko;   echo drivers/input/keyboard/gpio_keys.ko;   echo drivers/input/keyboard/matrix_keypad.ko;   echo drivers/input/keyboard/omap4-keypad.ko;   echo drivers/input/keyboard/twl4030_keypad.ko; :; } > drivers/input/keyboard/modules.order

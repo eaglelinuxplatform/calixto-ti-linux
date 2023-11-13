@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib3000mb.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/dib3000mb.ko drivers/media/dvb-frontends/dib3000mb.o drivers/media/dvb-frontends/dib3000mb.mod.o;  true

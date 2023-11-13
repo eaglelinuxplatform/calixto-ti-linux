@@ -1,0 +1,1 @@
+cmd_kernel/dma/built-in.a := rm -f kernel/dma/built-in.a;  printf "kernel/dma/%s " mapping.o direct.o ops_helpers.o dummy.o contiguous.o coherent.o remap.o | xargs arm-oe-linux-gnueabi-ar cDPrST kernel/dma/built-in.a

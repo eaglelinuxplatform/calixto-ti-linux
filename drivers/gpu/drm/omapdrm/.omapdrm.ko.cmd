@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/omapdrm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/omapdrm/omapdrm.ko drivers/gpu/drm/omapdrm/omapdrm.o drivers/gpu/drm/omapdrm/omapdrm.mod.o;  true

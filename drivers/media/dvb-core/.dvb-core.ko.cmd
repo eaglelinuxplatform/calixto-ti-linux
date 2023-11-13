@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-core/dvb-core.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-core/dvb-core.ko drivers/media/dvb-core/dvb-core.o drivers/media/dvb-core/dvb-core.mod.o;  true

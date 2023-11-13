@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/fb_sys_fops.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/core/fb_sys_fops.ko drivers/video/fbdev/core/fb_sys_fops.o drivers/video/fbdev/core/fb_sys_fops.mod.o;  true

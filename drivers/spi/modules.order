@@ -1,0 +1,3 @@
+drivers/spi/spi-bitbang.ko
+drivers/spi/spi-gpio.ko
+drivers/spi/spi-ti-qspi.ko

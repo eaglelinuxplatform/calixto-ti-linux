@@ -1,0 +1,1 @@
+cmd_sound/soc/snd-soc-core.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/snd-soc-core.ko sound/soc/snd-soc-core.o sound/soc/snd-soc-core.mod.o;  true

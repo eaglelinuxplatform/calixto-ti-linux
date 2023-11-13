@@ -1,0 +1,18 @@
+logicpd-som-lv-37xx-devkit.o: \
+ arch/arm/boot/dts/logicpd-som-lv-37xx-devkit.dts \
+ arch/arm/boot/dts/omap36xx.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/media/omap3-isp.h \
+ arch/arm/boot/dts/omap3.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
+ arch/arm/boot/dts/omap3xxx-clocks.dtsi \
+ arch/arm/boot/dts/omap3-cpu-thermal.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm/boot/dts/logicpd-som-lv.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ arch/arm/boot/dts/twl4030.dtsi arch/arm/boot/dts/twl4030_omap3.dtsi \
+ arch/arm/boot/dts/logicpd-som-lv-baseboard.dtsi \
+ arch/arm/boot/dts/omap-gpmc-smsc9221.dtsi

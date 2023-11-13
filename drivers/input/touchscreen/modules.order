@@ -1,0 +1,9 @@
+drivers/input/touchscreen/ads7846.ko
+drivers/input/touchscreen/atmel_mxt_ts.ko
+drivers/input/touchscreen/edt-ft5x06.ko
+drivers/input/touchscreen/pixcir_i2c_ts.ko
+drivers/input/touchscreen/ti_am335x_tsc.ko
+drivers/input/touchscreen/tsc200x-core.ko
+drivers/input/touchscreen/tsc2004.ko
+drivers/input/touchscreen/tsc2005.ko
+drivers/input/touchscreen/tsc2007.ko

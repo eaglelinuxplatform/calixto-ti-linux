@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-backlight.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-backlight.ko drivers/leds/trigger/ledtrig-backlight.o drivers/leds/trigger/ledtrig-backlight.mod.o;  true

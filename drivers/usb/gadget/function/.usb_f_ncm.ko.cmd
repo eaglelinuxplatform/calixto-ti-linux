@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_ncm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/usb_f_ncm.ko drivers/usb/gadget/function/usb_f_ncm.o drivers/usb/gadget/function/usb_f_ncm.mod.o;  true

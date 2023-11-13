@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl1251/modules.order := {   echo drivers/net/wireless/ti/wl1251/wl1251.ko;   echo drivers/net/wireless/ti/wl1251/wl1251_spi.ko; :; } > drivers/net/wireless/ti/wl1251/modules.order

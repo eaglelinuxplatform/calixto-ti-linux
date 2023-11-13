@@ -1,0 +1,17 @@
+omap4-droid-bionic-xt875.o: \
+ arch/arm/boot/dts/omap4-droid-bionic-xt875.dts \
+ arch/arm/boot/dts/motorola-mapphone-common.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ arch/arm/boot/dts/omap443x.dtsi arch/arm/boot/dts/omap4.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/omap4.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
+ arch/arm/boot/dts/omap4-l4.dtsi arch/arm/boot/dts/omap4-l4-abe.dtsi \
+ arch/arm/boot/dts/omap44xx-clocks.dtsi \
+ arch/arm/boot/dts/omap4-cpu-thermal.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h \
+ arch/arm/boot/dts/motorola-cpcap-mapphone.dtsi

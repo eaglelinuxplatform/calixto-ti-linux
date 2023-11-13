@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/am35x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/musb/am35x.ko drivers/usb/musb/am35x.o drivers/usb/musb/am35x.mod.o;  true

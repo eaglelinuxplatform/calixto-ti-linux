@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/ves1x93.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/ves1x93.ko drivers/media/dvb-frontends/ves1x93.o drivers/media/dvb-frontends/ves1x93.mod.o;  true

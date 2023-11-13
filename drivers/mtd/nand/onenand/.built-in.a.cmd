@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/onenand/built-in.a := rm -f drivers/mtd/nand/onenand/built-in.a;  printf "drivers/mtd/nand/onenand/%s " onenand_base.o onenand_bbt.o onenand_omap2.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/mtd/nand/onenand/built-in.a

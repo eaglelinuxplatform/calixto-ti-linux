@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-edp.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-edp.ko drivers/gpu/drm/panel/panel-edp.o drivers/gpu/drm/panel/panel-edp.mod.o;  true

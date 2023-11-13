@@ -1,0 +1,4 @@
+drivers/crypto/omap-crypto.ko
+drivers/crypto/omap-aes-driver.ko
+drivers/crypto/omap-des.ko
+drivers/crypto/omap-sham.ko

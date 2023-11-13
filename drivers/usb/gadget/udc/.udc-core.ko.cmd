@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/udc-core.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/udc-core.ko drivers/usb/gadget/udc/udc-core.o drivers/usb/gadget/udc/udc-core.mod.o;  true

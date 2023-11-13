@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/mwifiex/mwifiex_usb.o := arm-oe-linux-gnueabi-ld -EL -z noexecstack   -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_usb.o @drivers/net/wireless/marvell/mwifiex/mwifiex_usb.mod 

@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/nft_meta_bridge.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/nft_meta_bridge.ko net/bridge/netfilter/nft_meta_bridge.o net/bridge/netfilter/nft_meta_bridge.mod.o;  true

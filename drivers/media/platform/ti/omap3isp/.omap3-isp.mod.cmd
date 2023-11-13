@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/ti/omap3isp/omap3-isp.mod := printf '%s\n'   isp.o ispvideo.o ispcsiphy.o ispccp2.o ispcsi2.o ispccdc.o isppreview.o ispresizer.o ispstat.o isph3a_aewb.o isph3a_af.o isphist.o | awk '!x[$$0]++ { print("drivers/media/platform/ti/omap3isp/"$$0) }' > drivers/media/platform/ti/omap3isp/omap3-isp.mod

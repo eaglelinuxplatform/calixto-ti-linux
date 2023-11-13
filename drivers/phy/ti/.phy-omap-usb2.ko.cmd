@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-omap-usb2.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/ti/phy-omap-usb2.ko drivers/phy/ti/phy-omap-usb2.o drivers/phy/ti/phy-omap-usb2.mod.o;  true

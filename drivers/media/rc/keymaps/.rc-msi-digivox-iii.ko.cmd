@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-msi-digivox-iii.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-msi-digivox-iii.ko drivers/media/rc/keymaps/rc-msi-digivox-iii.o drivers/media/rc/keymaps/rc-msi-digivox-iii.mod.o;  true

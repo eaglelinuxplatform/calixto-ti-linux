@@ -1,0 +1,10 @@
+omap3-cm-t3517.o: arch/arm/boot/dts/omap3-cm-t3517.dts \
+ arch/arm/boot/dts/am3517.dtsi arch/arm/boot/dts/omap3.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
+ arch/arm/boot/dts/omap3xxx-clocks.dtsi \
+ arch/arm/boot/dts/am35xx-clocks.dtsi \
+ arch/arm/boot/dts/omap36xx-am35xx-omap3430es2plus-clocks.dtsi \
+ arch/arm/boot/dts/omap3-cm-t3x.dtsi

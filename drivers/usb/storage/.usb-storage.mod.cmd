@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/usb-storage.mod := printf '%s\n'   scsiglue.o protocol.o transport.o usb.o initializers.o sierra_ms.o option_ms.o usual-tables.o | awk '!x[$$0]++ { print("drivers/usb/storage/"$$0) }' > drivers/usb/storage/usb-storage.mod

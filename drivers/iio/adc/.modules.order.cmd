@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/modules.order := {   echo drivers/iio/adc/cpcap-adc.ko;   echo drivers/iio/adc/ina2xx-adc.ko;   echo drivers/iio/adc/ti_am335x_adc.ko;   echo drivers/iio/adc/twl4030-madc.ko; :; } > drivers/iio/adc/modules.order
