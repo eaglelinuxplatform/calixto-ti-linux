@@ -1,1 +1,0 @@
-cmd_arch/arm/crypto/modules.order := {   echo arch/arm/crypto/aes-arm.ko;   echo arch/arm/crypto/aes-arm-bs.ko;   echo arch/arm/crypto/sha1-arm.ko;   echo arch/arm/crypto/sha1-arm-neon.ko;   echo arch/arm/crypto/sha256-arm.ko;   echo arch/arm/crypto/sha512-arm.ko;   echo arch/arm/crypto/chacha-neon.ko;   echo arch/arm/crypto/ghash-arm-ce.ko; :; } > arch/arm/crypto/modules.order

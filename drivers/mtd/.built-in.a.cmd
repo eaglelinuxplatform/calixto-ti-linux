@@ -1,1 +1,0 @@
-cmd_drivers/mtd/built-in.a := rm -f drivers/mtd/built-in.a;  printf "drivers/mtd/%s " mtdcore.o mtdsuper.o mtdconcat.o mtdpart.o mtdchar.o parsers/built-in.a mtd_blkdevs.o mtdblock.o mtdoops.o chips/built-in.a lpddr/built-in.a maps/built-in.a devices/built-in.a nand/built-in.a tests/built-in.a ubi/built-in.a | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/mtd/built-in.a

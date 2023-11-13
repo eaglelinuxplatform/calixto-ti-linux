@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/mt352.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/mt352.ko drivers/media/dvb-frontends/mt352.o drivers/media/dvb-frontends/mt352.mod.o;  true

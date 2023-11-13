@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/marvell/libertas/usb8xxx.o := arm-oe-linux-gnueabi-ld -EL -z noexecstack   -r -o drivers/net/wireless/marvell/libertas/usb8xxx.o @drivers/net/wireless/marvell/libertas/usb8xxx.mod 

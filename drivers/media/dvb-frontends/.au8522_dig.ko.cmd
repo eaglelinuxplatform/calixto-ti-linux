@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/au8522_dig.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/au8522_dig.ko drivers/media/dvb-frontends/au8522_dig.o drivers/media/dvb-frontends/au8522_dig.mod.o;  true

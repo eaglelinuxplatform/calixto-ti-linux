@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/xc2028.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/xc2028.ko drivers/media/tuners/xc2028.o drivers/media/tuners/xc2028.mod.o;  true

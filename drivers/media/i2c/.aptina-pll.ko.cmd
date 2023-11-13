@@ -1,1 +1,0 @@
-cmd_drivers/media/i2c/aptina-pll.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/aptina-pll.ko drivers/media/i2c/aptina-pll.o drivers/media/i2c/aptina-pll.mod.o;  true

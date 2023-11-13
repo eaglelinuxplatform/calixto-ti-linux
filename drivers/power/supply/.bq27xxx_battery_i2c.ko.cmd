@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/bq27xxx_battery_i2c.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/bq27xxx_battery_i2c.ko drivers/power/supply/bq27xxx_battery_i2c.o drivers/power/supply/bq27xxx_battery_i2c.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_arch/arm/probes/kprobes/built-in.a := rm -f arch/arm/probes/kprobes/built-in.a;  printf "arch/arm/probes/kprobes/%s " core.o actions-common.o checkers-common.o actions-arm.o checkers-arm.o opt-arm.o | xargs arm-oe-linux-gnueabi-ar cDPrST arch/arm/probes/kprobes/built-in.a

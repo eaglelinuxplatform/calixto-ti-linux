@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/bq2415x_charger.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/bq2415x_charger.ko drivers/power/supply/bq2415x_charger.o drivers/power/supply/bq2415x_charger.mod.o;  true

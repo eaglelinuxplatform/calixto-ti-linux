@@ -1,1 +1,0 @@
-cmd_drivers/usb/host/ehci-omap.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/ehci-omap.ko drivers/usb/host/ehci-omap.o drivers/usb/host/ehci-omap.mod.o;  true

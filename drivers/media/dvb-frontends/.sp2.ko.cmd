@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/sp2.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/sp2.ko drivers/media/dvb-frontends/sp2.o drivers/media/dvb-frontends/sp2.mod.o;  true

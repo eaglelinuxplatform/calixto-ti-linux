@@ -1,1 +1,0 @@
-cmd_drivers/crypto/modules.order := {   cat drivers/crypto/xilinx/modules.order;   cat drivers/crypto/hisilicon/modules.order;   cat drivers/crypto/keembay/modules.order;   echo drivers/crypto/omap-crypto.ko;   echo drivers/crypto/omap-aes-driver.ko;   echo drivers/crypto/omap-des.ko;   echo drivers/crypto/omap-sham.ko; :; } > drivers/crypto/modules.order

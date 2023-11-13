@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_reject_inet.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_reject_inet.ko net/netfilter/nft_reject_inet.o net/netfilter/nft_reject_inet.mod.o;  true

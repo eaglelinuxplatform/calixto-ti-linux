@@ -1,1 +1,0 @@
-cmd_drivers/phy/ti/built-in.a := rm -f drivers/phy/ti/built-in.a;  printf "drivers/phy/ti/%s " phy-omap-control.o phy-ti-pipe3.o phy-gmii-sel.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/phy/ti/built-in.a

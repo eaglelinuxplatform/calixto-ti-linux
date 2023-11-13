@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-tanix-tx3mini.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-tanix-tx3mini.ko drivers/media/rc/keymaps/rc-tanix-tx3mini.o drivers/media/rc/keymaps/rc-tanix-tx3mini.mod.o;  true

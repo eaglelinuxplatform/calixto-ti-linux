@@ -1,1 +1,0 @@
-cmd_drivers/usb/dwc3/dwc3-haps.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/dwc3/dwc3-haps.ko drivers/usb/dwc3/dwc3-haps.o drivers/usb/dwc3/dwc3-haps.mod.o;  true

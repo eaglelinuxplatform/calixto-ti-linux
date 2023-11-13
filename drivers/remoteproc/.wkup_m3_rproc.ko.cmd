@@ -1,1 +1,0 @@
-cmd_drivers/remoteproc/wkup_m3_rproc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/remoteproc/wkup_m3_rproc.ko drivers/remoteproc/wkup_m3_rproc.o drivers/remoteproc/wkup_m3_rproc.mod.o;  true

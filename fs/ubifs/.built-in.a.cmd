@@ -1,1 +1,0 @@
-cmd_fs/ubifs/built-in.a := rm -f fs/ubifs/built-in.a;  printf "fs/ubifs/%s " shrinker.o journal.o file.o dir.o super.o sb.o io.o tnc.o master.o scan.o replay.o log.o commit.o gc.o orphan.o budget.o find.o tnc_commit.o compress.o lpt.o lprops.o recovery.o ioctl.o lpt_commit.o tnc_misc.o debug.o misc.o sysfs.o xattr.o | xargs arm-oe-linux-gnueabi-ar cDPrST fs/ubifs/built-in.a

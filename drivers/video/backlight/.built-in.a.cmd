@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/built-in.a := rm -f drivers/video/backlight/built-in.a;  printf "drivers/video/backlight/%s " lcd.o platform_lcd.o backlight.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/video/backlight/built-in.a

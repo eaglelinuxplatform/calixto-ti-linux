@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/ti/wlcore/modules.order := {   echo drivers/net/wireless/ti/wlcore/wlcore.ko;   echo drivers/net/wireless/ti/wlcore/wlcore_spi.ko;   echo drivers/net/wireless/ti/wlcore/wlcore_sdio.ko; :; } > drivers/net/wireless/ti/wlcore/modules.order

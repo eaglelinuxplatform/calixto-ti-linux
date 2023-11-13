@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_recent.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_recent.ko net/netfilter/xt_recent.o net/netfilter/xt_recent.mod.o;  true

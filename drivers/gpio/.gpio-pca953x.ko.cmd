@@ -1,1 +1,0 @@
-cmd_drivers/gpio/gpio-pca953x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-pca953x.ko drivers/gpio/gpio-pca953x.o drivers/gpio/gpio-pca953x.mod.o;  true

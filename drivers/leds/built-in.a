@@ -1,9 +1,0 @@
-!<thin>
-//                                              52        `
-led-core.o/
-led-triggers.o/
-trigger/ledtrig-cpu.o/
-
-/0              0           0     0     644     35180     `
-/12             0           0     0     644     42184     `
-/28             0           0     0     644     25764     `

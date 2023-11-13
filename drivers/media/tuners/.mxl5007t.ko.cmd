@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/mxl5007t.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/mxl5007t.ko drivers/media/tuners/mxl5007t.o drivers/media/tuners/mxl5007t.mod.o;  true

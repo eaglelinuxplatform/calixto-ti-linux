@@ -1,1 +1,0 @@
-cmd_drivers/media/v4l2-core/v4l2-dv-timings.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/v4l2-core/v4l2-dv-timings.ko drivers/media/v4l2-core/v4l2-dv-timings.o drivers/media/v4l2-core/v4l2-dv-timings.mod.o;  true

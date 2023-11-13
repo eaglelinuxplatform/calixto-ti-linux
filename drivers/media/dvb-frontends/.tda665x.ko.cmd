@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/tda665x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/tda665x.ko drivers/media/dvb-frontends/tda665x.o drivers/media/dvb-frontends/tda665x.mod.o;  true

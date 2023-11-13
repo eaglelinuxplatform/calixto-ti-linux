@@ -1,1 +1,0 @@
-cmd_drivers/char/hw_random/modules.order := {   echo drivers/char/hw_random/rng-core.ko;   echo drivers/char/hw_random/omap-rng.ko;   echo drivers/char/hw_random/omap3-rom-rng.ko; :; } > drivers/char/hw_random/modules.order

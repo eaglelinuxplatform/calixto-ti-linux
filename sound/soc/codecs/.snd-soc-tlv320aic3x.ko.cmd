@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/snd-soc-tlv320aic3x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-tlv320aic3x.ko sound/soc/codecs/snd-soc-tlv320aic3x.o sound/soc/codecs/snd-soc-tlv320aic3x.mod.o;  true

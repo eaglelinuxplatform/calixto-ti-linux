@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/tsc200x-core.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/tsc200x-core.ko drivers/input/touchscreen/tsc200x-core.o drivers/input/touchscreen/tsc200x-core.mod.o;  true

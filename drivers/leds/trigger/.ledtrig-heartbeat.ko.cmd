@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/ledtrig-heartbeat.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-heartbeat.ko drivers/leds/trigger/ledtrig-heartbeat.o drivers/leds/trigger/ledtrig-heartbeat.mod.o;  true

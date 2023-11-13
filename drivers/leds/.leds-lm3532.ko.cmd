@@ -1,1 +1,0 @@
-cmd_drivers/leds/leds-lm3532.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-lm3532.ko drivers/leds/leds-lm3532.o drivers/leds/leds-lm3532.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_drivers/net/can/dev/can-dev.mod := printf '%s\n'   skb.o calc_bittiming.o bittiming.o dev.o length.o netlink.o | awk '!x[$$0]++ { print("drivers/net/can/dev/"$$0) }' > drivers/net/can/dev/can-dev.mod

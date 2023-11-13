@@ -1,1 +1,0 @@
-cmd_drivers/iio/pressure/bmp280-i2c.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/pressure/bmp280-i2c.ko drivers/iio/pressure/bmp280-i2c.o drivers/iio/pressure/bmp280-i2c.mod.o;  true

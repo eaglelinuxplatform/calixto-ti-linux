@@ -1,1 +1,0 @@
-cmd_drivers/iio/accel/st_accel_i2c.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/st_accel_i2c.ko drivers/iio/accel/st_accel_i2c.o drivers/iio/accel/st_accel_i2c.mod.o;  true

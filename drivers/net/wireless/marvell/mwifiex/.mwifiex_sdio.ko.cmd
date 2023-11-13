@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.mod.o;  true

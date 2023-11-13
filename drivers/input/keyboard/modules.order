@@ -1,5 +1,0 @@
-drivers/input/keyboard/atkbd.ko
-drivers/input/keyboard/gpio_keys.ko
-drivers/input/keyboard/matrix_keypad.ko
-drivers/input/keyboard/omap4-keypad.ko
-drivers/input/keyboard/twl4030_keypad.ko

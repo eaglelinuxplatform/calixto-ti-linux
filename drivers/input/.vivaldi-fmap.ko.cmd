@@ -1,1 +1,0 @@
-cmd_drivers/input/vivaldi-fmap.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/vivaldi-fmap.ko drivers/input/vivaldi-fmap.o drivers/input/vivaldi-fmap.mod.o;  true

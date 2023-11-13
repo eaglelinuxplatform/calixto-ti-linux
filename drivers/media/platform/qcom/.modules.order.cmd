@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/qcom/modules.order := {   cat drivers/media/platform/qcom/camss/modules.order;   cat drivers/media/platform/qcom/venus/modules.order; :; } > drivers/media/platform/qcom/modules.order

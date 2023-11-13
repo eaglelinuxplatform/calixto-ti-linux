@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/led_bl.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/led_bl.ko drivers/video/backlight/led_bl.o drivers/video/backlight/led_bl.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_drivers/thermal/ti-soc-thermal/built-in.a := rm -f drivers/thermal/ti-soc-thermal/built-in.a;  printf "drivers/thermal/ti-soc-thermal/%s " ti-bandgap.o ti-thermal-common.o dra752-thermal-data.o omap3-thermal-data.o omap4-thermal-data.o omap5-thermal-data.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/thermal/ti-soc-thermal/built-in.a

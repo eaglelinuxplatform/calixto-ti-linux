@@ -1,1 +1,0 @@
-cmd_drivers/mfd/ti_am335x_tscadc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/ti_am335x_tscadc.ko drivers/mfd/ti_am335x_tscadc.o drivers/mfd/ti_am335x_tscadc.mod.o;  true

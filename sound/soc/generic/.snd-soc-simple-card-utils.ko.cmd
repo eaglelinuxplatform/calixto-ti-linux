@@ -1,1 +1,0 @@
-cmd_sound/soc/generic/snd-soc-simple-card-utils.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/generic/snd-soc-simple-card-utils.ko sound/soc/generic/snd-soc-simple-card-utils.o sound/soc/generic/snd-soc-simple-card-utils.mod.o;  true

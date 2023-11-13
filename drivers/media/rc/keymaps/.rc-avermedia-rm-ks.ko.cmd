@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-avermedia-rm-ks.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-avermedia-rm-ks.ko drivers/media/rc/keymaps/rc-avermedia-rm-ks.o drivers/media/rc/keymaps/rc-avermedia-rm-ks.mod.o;  true

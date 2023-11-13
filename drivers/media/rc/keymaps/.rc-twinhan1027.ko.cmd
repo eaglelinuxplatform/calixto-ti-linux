@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-twinhan1027.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-twinhan1027.ko drivers/media/rc/keymaps/rc-twinhan1027.o drivers/media/rc/keymaps/rc-twinhan1027.mod.o;  true

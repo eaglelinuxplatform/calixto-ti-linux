@@ -1,1 +1,0 @@
-cmd_drivers/regulator/lm363x-regulator.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/lm363x-regulator.ko drivers/regulator/lm363x-regulator.o drivers/regulator/lm363x-regulator.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_sound/core/snd-pcm-dmaengine.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/core/snd-pcm-dmaengine.ko sound/core/snd-pcm-dmaengine.o sound/core/snd-pcm-dmaengine.mod.o;  true

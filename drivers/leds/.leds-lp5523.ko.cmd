@@ -1,1 +1,0 @@
-cmd_drivers/leds/leds-lp5523.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-lp5523.ko drivers/leds/leds-lp5523.o drivers/leds/leds-lp5523.mod.o;  true

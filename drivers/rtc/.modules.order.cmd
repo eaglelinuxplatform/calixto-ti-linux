@@ -1,1 +1,0 @@
-cmd_drivers/rtc/modules.order := {   echo drivers/rtc/rtc-cpcap.ko;   echo drivers/rtc/rtc-ds1307.ko;   echo drivers/rtc/rtc-m41t80.ko;   echo drivers/rtc/rtc-omap.ko;   echo drivers/rtc/rtc-palmas.ko;   echo drivers/rtc/rtc-twl.ko; :; } > drivers/rtc/modules.order

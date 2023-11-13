@@ -1,1 +1,0 @@
-cmd_drivers/phy/motorola/phy-mapphone-mdm6600.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/motorola/phy-mapphone-mdm6600.ko drivers/phy/motorola/phy-mapphone-mdm6600.o drivers/phy/motorola/phy-mapphone-mdm6600.mod.o;  true

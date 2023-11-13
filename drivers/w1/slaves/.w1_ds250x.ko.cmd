@@ -1,1 +1,0 @@
-cmd_drivers/w1/slaves/w1_ds250x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/w1/slaves/w1_ds250x.ko drivers/w1/slaves/w1_ds250x.o drivers/w1/slaves/w1_ds250x.mod.o;  true

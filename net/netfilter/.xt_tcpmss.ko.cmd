@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_tcpmss.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_tcpmss.ko net/netfilter/xt_tcpmss.o net/netfilter/xt_tcpmss.mod.o;  true

@@ -1,9 +1,0 @@
-sound/soc/codecs/snd-soc-cpcap.ko
-sound/soc/codecs/snd-soc-hdmi-codec.ko
-sound/soc/codecs/snd-soc-tlv320aic23.ko
-sound/soc/codecs/snd-soc-tlv320aic23-i2c.ko
-sound/soc/codecs/snd-soc-tlv320aic3x.ko
-sound/soc/codecs/snd-soc-tlv320aic3x-i2c.ko
-sound/soc/codecs/snd-soc-twl4030.ko
-sound/soc/codecs/snd-soc-twl6040.ko
-sound/soc/codecs/snd-soc-tpa6130a2.ko

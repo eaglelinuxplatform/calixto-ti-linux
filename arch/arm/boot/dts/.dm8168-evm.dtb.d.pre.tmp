@@ -1,8 +1,0 @@
-dm8168-evm.o: arch/arm/boot/dts/dm8168-evm.dts \
- arch/arm/boot/dts/dm816x.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
- scripts/dtc/include-prefixes/dt-bindings/clock/dm816.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
- scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
- arch/arm/boot/dts/dm816x-clocks.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

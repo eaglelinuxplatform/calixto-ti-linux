@@ -1,1 +1,0 @@
-cmd_drivers/input/ff-memless.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/ff-memless.ko drivers/input/ff-memless.o drivers/input/ff-memless.mod.o;  true

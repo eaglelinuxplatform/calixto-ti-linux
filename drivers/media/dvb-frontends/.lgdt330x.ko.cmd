@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/lgdt330x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/lgdt330x.ko drivers/media/dvb-frontends/lgdt330x.o drivers/media/dvb-frontends/lgdt330x.mod.o;  true

@@ -1,1 +1,0 @@
-arch/arm/boot/dts/omap3-overo-storm-palo35.dtb: arch/arm/boot/dts/.omap3-overo-storm-palo35.dtb.dts.tmp arch/arm/boot/dts/omap34xx-omap36xx-clocks.dtsi arch/arm/boot/dts/omap36xx-omap3430es2plus-clocks.dtsi arch/arm/boot/dts/omap36xx-am35xx-omap3430es2plus-clocks.dtsi arch/arm/boot/dts/omap36xx-clocks.dtsi

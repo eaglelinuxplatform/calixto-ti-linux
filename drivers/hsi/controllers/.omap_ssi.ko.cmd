@@ -1,1 +1,0 @@
-cmd_drivers/hsi/controllers/omap_ssi.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hsi/controllers/omap_ssi.ko drivers/hsi/controllers/omap_ssi.o drivers/hsi/controllers/omap_ssi.mod.o;  true

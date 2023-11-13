@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/twl4030_charger.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/twl4030_charger.ko drivers/power/supply/twl4030_charger.o drivers/power/supply/twl4030_charger.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_drivers/pwm/pwm-omap-dmtimer.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-omap-dmtimer.ko drivers/pwm/pwm-omap-dmtimer.o drivers/pwm/pwm-omap-dmtimer.mod.o;  true

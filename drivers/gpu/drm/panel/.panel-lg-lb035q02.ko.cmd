@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/panel/panel-lg-lb035q02.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-lg-lb035q02.ko drivers/gpu/drm/panel/panel-lg-lb035q02.o drivers/gpu/drm/panel/panel-lg-lb035q02.mod.o;  true

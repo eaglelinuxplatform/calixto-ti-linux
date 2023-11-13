@@ -1,1 +1,0 @@
-cmd_drivers/remoteproc/omap_remoteproc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/remoteproc/omap_remoteproc.ko drivers/remoteproc/omap_remoteproc.o drivers/remoteproc/omap_remoteproc.mod.o;  true

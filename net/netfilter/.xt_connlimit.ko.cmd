@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_connlimit.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_connlimit.ko net/netfilter/xt_connlimit.o net/netfilter/xt_connlimit.mod.o;  true

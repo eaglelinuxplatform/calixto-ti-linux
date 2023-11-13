@@ -1,1 +1,0 @@
-cmd_drivers/misc/pci_endpoint_test.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/misc/pci_endpoint_test.ko drivers/misc/pci_endpoint_test.o drivers/misc/pci_endpoint_test.mod.o;  true

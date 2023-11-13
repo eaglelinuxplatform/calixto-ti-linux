@@ -1,1 +1,0 @@
-cmd_drivers/phy/motorola/phy-cpcap-usb.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/phy/motorola/phy-cpcap-usb.ko drivers/phy/motorola/phy-cpcap-usb.o drivers/phy/motorola/phy-cpcap-usb.mod.o;  true

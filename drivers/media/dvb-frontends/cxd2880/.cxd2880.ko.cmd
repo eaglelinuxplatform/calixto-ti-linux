@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/cxd2880/cxd2880.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/cxd2880/cxd2880.ko drivers/media/dvb-frontends/cxd2880/cxd2880.o drivers/media/dvb-frontends/cxd2880/cxd2880.mod.o;  true

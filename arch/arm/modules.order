@@ -1,8 +1,0 @@
-arch/arm/crypto/aes-arm.ko
-arch/arm/crypto/aes-arm-bs.ko
-arch/arm/crypto/sha1-arm.ko
-arch/arm/crypto/sha1-arm-neon.ko
-arch/arm/crypto/sha256-arm.ko
-arch/arm/crypto/sha512-arm.ko
-arch/arm/crypto/chacha-neon.ko
-arch/arm/crypto/ghash-arm-ce.ko

@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/sp887x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/sp887x.ko drivers/media/dvb-frontends/sp887x.o drivers/media/dvb-frontends/sp887x.mod.o;  true

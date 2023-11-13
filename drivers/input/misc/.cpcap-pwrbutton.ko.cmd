@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/cpcap-pwrbutton.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/cpcap-pwrbutton.ko drivers/input/misc/cpcap-pwrbutton.o drivers/input/misc/cpcap-pwrbutton.mod.o;  true

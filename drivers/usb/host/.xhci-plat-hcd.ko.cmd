@@ -1,1 +1,0 @@
-cmd_drivers/usb/host/xhci-plat-hcd.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/xhci-plat-hcd.ko drivers/usb/host/xhci-plat-hcd.o drivers/usb/host/xhci-plat-hcd.mod.o;  true

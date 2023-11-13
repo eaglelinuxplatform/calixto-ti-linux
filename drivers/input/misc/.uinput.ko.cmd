@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/uinput.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o;  true

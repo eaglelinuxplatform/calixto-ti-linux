@@ -1,1 +1,0 @@
-cmd_drivers/usb/host/xhci-hcd.mod := printf '%s\n'   xhci.o xhci-mem.o xhci-ext-caps.o xhci-ring.o xhci-hub.o xhci-dbg.o xhci-trace.o xhci-debugfs.o | awk '!x[$$0]++ { print("drivers/usb/host/"$$0) }' > drivers/usb/host/xhci-hcd.mod

@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/nxp/built-in.a := rm -f drivers/media/platform/nxp/built-in.a;  printf "drivers/media/platform/nxp/%s " dw100/built-in.a imx-jpeg/built-in.a | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/media/platform/nxp/built-in.a

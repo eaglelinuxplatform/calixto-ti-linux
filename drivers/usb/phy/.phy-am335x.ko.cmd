@@ -1,1 +1,0 @@
-cmd_drivers/usb/phy/phy-am335x.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/phy/phy-am335x.ko drivers/usb/phy/phy-am335x.o drivers/usb/phy/phy-am335x.mod.o;  true

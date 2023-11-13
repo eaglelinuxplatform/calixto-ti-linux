@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/panel/panel-tpo-td028ttec1.mod := printf '%s\n'   panel-tpo-td028ttec1.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-tpo-td028ttec1.mod

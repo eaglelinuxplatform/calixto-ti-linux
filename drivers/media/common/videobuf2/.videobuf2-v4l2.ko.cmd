@@ -1,1 +1,0 @@
-cmd_drivers/media/common/videobuf2/videobuf2-v4l2.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/common/videobuf2/videobuf2-v4l2.ko drivers/media/common/videobuf2/videobuf2-v4l2.o drivers/media/common/videobuf2/videobuf2-v4l2.mod.o;  true

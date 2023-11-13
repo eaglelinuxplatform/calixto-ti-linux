@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-x96max.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-x96max.ko drivers/media/rc/keymaps/rc-x96max.o drivers/media/rc/keymaps/rc-x96max.mod.o;  true

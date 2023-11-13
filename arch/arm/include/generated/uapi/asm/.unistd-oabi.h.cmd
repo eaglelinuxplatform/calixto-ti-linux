@@ -1,1 +1,0 @@
-cmd_arch/arm/include/generated/uapi/asm/unistd-oabi.h := sh ./scripts/syscallhdr.sh --abis common,oabi --offset __NR_SYSCALL_BASE arch/arm/tools/syscall.tbl arch/arm/include/generated/uapi/asm/unistd-oabi.h

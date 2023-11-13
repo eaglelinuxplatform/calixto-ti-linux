@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/lnbh29.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/lnbh29.ko drivers/media/dvb-frontends/lnbh29.o drivers/media/dvb-frontends/lnbh29.mod.o;  true

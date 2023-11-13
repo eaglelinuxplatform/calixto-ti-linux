@@ -1,1 +1,0 @@
-cmd_net/sched/modules.order := {   echo net/sched/act_police.ko;   echo net/sched/act_gact.ko;   echo net/sched/sch_ingress.ko;   echo net/sched/cls_u32.ko;   echo net/sched/cls_flower.ko;   echo net/sched/cls_matchall.ko; :; } > net/sched/modules.order

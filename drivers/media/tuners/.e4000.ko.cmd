@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/e4000.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/e4000.ko drivers/media/tuners/e4000.o drivers/media/tuners/e4000.mod.o;  true

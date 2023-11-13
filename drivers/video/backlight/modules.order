@@ -1,4 +1,0 @@
-drivers/video/backlight/gpio_backlight.ko
-drivers/video/backlight/pandora_bl.ko
-drivers/video/backlight/pwm_bl.ko
-drivers/video/backlight/led_bl.ko

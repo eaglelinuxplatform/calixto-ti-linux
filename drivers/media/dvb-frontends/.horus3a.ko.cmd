@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/horus3a.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/horus3a.ko drivers/media/dvb-frontends/horus3a.o drivers/media/dvb-frontends/horus3a.mod.o;  true

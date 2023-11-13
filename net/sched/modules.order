@@ -1,6 +1,0 @@
-net/sched/act_police.ko
-net/sched/act_gact.ko
-net/sched/sch_ingress.ko
-net/sched/cls_u32.ko
-net/sched/cls_flower.ko
-net/sched/cls_matchall.ko

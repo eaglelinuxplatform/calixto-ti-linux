@@ -1,1 +1,0 @@
-cmd_drivers/mailbox/omap-mailbox.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mailbox/omap-mailbox.ko drivers/mailbox/omap-mailbox.o drivers/mailbox/omap-mailbox.mod.o;  true

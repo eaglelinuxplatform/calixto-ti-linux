@@ -1,1 +1,0 @@
-arch/arm/boot/dts/am335x-lxm.dtb: arch/arm/boot/dts/.am335x-lxm.dtb.dts.tmp arch/arm/boot/dts/tps65910.dtsi

@@ -1,1 +1,0 @@
-cmd_net/netfilter/nfnetlink_queue.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nfnetlink_queue.ko net/netfilter/nfnetlink_queue.o net/netfilter/nfnetlink_queue.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_drivers/pwm/pwm-tiehrpwm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-tiehrpwm.ko drivers/pwm/pwm-tiehrpwm.o drivers/pwm/pwm-tiehrpwm.mod.o;  true

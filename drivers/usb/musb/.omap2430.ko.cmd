@@ -1,1 +1,0 @@
-cmd_drivers/usb/musb/omap2430.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/musb/omap2430.ko drivers/usb/musb/omap2430.o drivers/usb/musb/omap2430.mod.o;  true

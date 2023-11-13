@@ -1,1 +1,0 @@
-cmd_drivers/gpio/built-in.a := rm -f drivers/gpio/built-in.a;  printf "drivers/gpio/%s " gpiolib.o gpiolib-devres.o gpiolib-legacy.o gpiolib-of.o gpiolib-cdev.o gpiolib-sysfs.o gpio-lp87565.o gpio-omap.o gpio-palmas.o gpio-pcf857x.o gpio-twl4030.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/gpio/built-in.a

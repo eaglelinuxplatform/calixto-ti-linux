@@ -1,1 +1,0 @@
-cmd_drivers/mtd/spi-nor/spi-nor.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mtd/spi-nor/spi-nor.ko drivers/mtd/spi-nor/spi-nor.o drivers/mtd/spi-nor/spi-nor.mod.o;  true

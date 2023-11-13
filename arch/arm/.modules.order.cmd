@@ -1,1 +1,0 @@
-cmd_arch/arm/modules.order := {   cat arch/arm/vfp/modules.order;   cat arch/arm/vdso/modules.order;   cat arch/arm/kernel/modules.order;   cat arch/arm/mm/modules.order;   cat arch/arm/common/modules.order;   cat arch/arm/probes/modules.order;   cat arch/arm/net/modules.order;   cat arch/arm/crypto/modules.order; :; } > arch/arm/modules.order

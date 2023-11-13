@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/function/usb_f_serial.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/usb_f_serial.ko drivers/usb/gadget/function/usb_f_serial.o drivers/usb/gadget/function/usb_f_serial.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_TPROXY.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_TPROXY.ko net/netfilter/xt_TPROXY.o net/netfilter/xt_TPROXY.mod.o;  true

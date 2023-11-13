@@ -1,8 +1,0 @@
-omap2430-sdp.o: arch/arm/boot/dts/omap2430-sdp.dts \
- arch/arm/boot/dts/omap2430.dtsi arch/arm/boot/dts/omap2.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/bus/ti-sysc.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
- scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
- arch/arm/boot/dts/omap24xx-clocks.dtsi \
- arch/arm/boot/dts/omap2430-clocks.dtsi arch/arm/boot/dts/twl4030.dtsi

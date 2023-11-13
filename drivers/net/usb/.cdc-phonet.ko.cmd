@@ -1,1 +1,0 @@
-cmd_drivers/net/usb/cdc-phonet.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/cdc-phonet.ko drivers/net/usb/cdc-phonet.o drivers/net/usb/cdc-phonet.mod.o;  true

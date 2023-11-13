@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/ledtrig-oneshot.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-oneshot.ko drivers/leds/trigger/ledtrig-oneshot.o drivers/leds/trigger/ledtrig-oneshot.mod.o;  true

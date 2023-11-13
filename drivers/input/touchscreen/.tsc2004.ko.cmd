@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/tsc2004.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/tsc2004.ko drivers/input/touchscreen/tsc2004.o drivers/input/touchscreen/tsc2004.mod.o;  true

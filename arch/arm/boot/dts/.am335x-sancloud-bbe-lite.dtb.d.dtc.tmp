@@ -1,1 +1,0 @@
-arch/arm/boot/dts/am335x-sancloud-bbe-lite.dtb: arch/arm/boot/dts/.am335x-sancloud-bbe-lite.dtb.dts.tmp arch/arm/boot/dts/tps65217.dtsi

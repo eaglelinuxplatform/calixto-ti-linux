@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_realm.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_realm.ko net/netfilter/xt_realm.o net/netfilter/xt_realm.mod.o;  true

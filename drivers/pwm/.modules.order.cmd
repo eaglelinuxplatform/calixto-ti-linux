@@ -1,1 +1,0 @@
-cmd_drivers/pwm/modules.order := {   echo drivers/pwm/pwm-omap-dmtimer.ko;   echo drivers/pwm/pwm-tiecap.ko;   echo drivers/pwm/pwm-tiehrpwm.ko;   echo drivers/pwm/pwm-twl.ko;   echo drivers/pwm/pwm-twl-led.ko; :; } > drivers/pwm/modules.order

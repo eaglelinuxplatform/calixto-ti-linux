@@ -1,1 +1,0 @@
-cmd_drivers/input/keyboard/omap4-keypad.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/omap4-keypad.ko drivers/input/keyboard/omap4-keypad.o drivers/input/keyboard/omap4-keypad.mod.o;  true

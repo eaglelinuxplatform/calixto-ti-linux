@@ -1,1 +1,0 @@
-cmd_drivers/usb/host/ohci-platform.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/ohci-platform.ko drivers/usb/host/ohci-platform.o drivers/usb/host/ohci-platform.mod.o;  true

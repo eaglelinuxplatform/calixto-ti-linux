@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_connlimit.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_connlimit.ko net/netfilter/nft_connlimit.o net/netfilter/nft_connlimit.mod.o;  true

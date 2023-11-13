@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/nxp/modules.order := {   cat drivers/media/platform/nxp/dw100/modules.order;   cat drivers/media/platform/nxp/imx-jpeg/modules.order; :; } > drivers/media/platform/nxp/modules.order

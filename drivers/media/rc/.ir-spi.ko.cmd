@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/ir-spi.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/ir-spi.ko drivers/media/rc/ir-spi.o drivers/media/rc/ir-spi.mod.o;  true

@@ -1,1 +1,0 @@
-arch/arm/boot/dts/omap4-kc1.dtb: arch/arm/boot/dts/.omap4-kc1.dtb.dts.tmp arch/arm/boot/dts/omap443x-clocks.dtsi

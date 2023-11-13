@@ -1,1 +1,0 @@
-cmd_drivers/iio/imu/modules.order := {   cat drivers/iio/imu/bmi160/modules.order;   cat drivers/iio/imu/bno055/modules.order;   cat drivers/iio/imu/inv_icm42600/modules.order;   cat drivers/iio/imu/inv_mpu6050/modules.order;   cat drivers/iio/imu/st_lsm6dsx/modules.order;   cat drivers/iio/imu/st_lsm9ds0/modules.order; :; } > drivers/iio/imu/modules.order

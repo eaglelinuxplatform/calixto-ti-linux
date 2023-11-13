@@ -1,1 +1,0 @@
-cmd_drivers/net/can/c_can/c_can_platform.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/c_can/c_can_platform.ko drivers/net/can/c_can/c_can_platform.o drivers/net/can/c_can/c_can_platform.mod.o;  true

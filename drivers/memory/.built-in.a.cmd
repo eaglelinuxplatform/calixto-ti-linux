@@ -1,1 +1,0 @@
-cmd_drivers/memory/built-in.a := rm -f drivers/memory/built-in.a;  printf "drivers/memory/%s " jedec_ddr_data.o of_memory.o omap-gpmc.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/memory/built-in.a

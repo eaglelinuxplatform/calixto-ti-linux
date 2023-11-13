@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/tps65218-pwrbutton.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/tps65218-pwrbutton.ko drivers/input/misc/tps65218-pwrbutton.o drivers/input/misc/tps65218-pwrbutton.mod.o;  true

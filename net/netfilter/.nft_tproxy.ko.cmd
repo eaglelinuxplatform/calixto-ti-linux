@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_tproxy.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_tproxy.ko net/netfilter/nft_tproxy.o net/netfilter/nft_tproxy.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/modules.order := {   echo drivers/leds/trigger/ledtrig-timer.ko;   echo drivers/leds/trigger/ledtrig-oneshot.ko;   echo drivers/leds/trigger/ledtrig-heartbeat.ko;   echo drivers/leds/trigger/ledtrig-backlight.ko;   echo drivers/leds/trigger/ledtrig-gpio.ko;   echo drivers/leds/trigger/ledtrig-default-on.ko; :; } > drivers/leds/trigger/modules.order

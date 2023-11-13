@@ -1,1 +1,0 @@
-cmd_drivers/iio/light/isl29028.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/isl29028.ko drivers/iio/light/isl29028.o drivers/iio/light/isl29028.mod.o;  true

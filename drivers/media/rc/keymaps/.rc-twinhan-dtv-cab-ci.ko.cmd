@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.ko drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.o drivers/media/rc/keymaps/rc-twinhan-dtv-cab-ci.mod.o;  true

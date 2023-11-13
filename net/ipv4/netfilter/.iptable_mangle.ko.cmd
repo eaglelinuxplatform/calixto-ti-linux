@@ -1,1 +1,0 @@
-cmd_net/ipv4/netfilter/iptable_mangle.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/iptable_mangle.ko net/ipv4/netfilter/iptable_mangle.o net/ipv4/netfilter/iptable_mangle.mod.o;  true

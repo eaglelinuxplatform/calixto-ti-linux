@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/bq27xxx_battery.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/bq27xxx_battery.ko drivers/power/supply/bq27xxx_battery.o drivers/power/supply/bq27xxx_battery.mod.o;  true

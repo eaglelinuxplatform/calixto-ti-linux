@@ -1,1 +1,0 @@
-cmd_drivers/iio/accel/modules.order := {   echo drivers/iio/accel/kxcjk-1013.ko;   echo drivers/iio/accel/st_accel.ko;   echo drivers/iio/accel/st_accel_i2c.ko;   echo drivers/iio/accel/st_accel_spi.ko; :; } > drivers/iio/accel/modules.order

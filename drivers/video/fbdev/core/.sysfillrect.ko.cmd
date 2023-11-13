@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/core/sysfillrect.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/core/sysfillrect.ko drivers/video/fbdev/core/sysfillrect.o drivers/video/fbdev/core/sysfillrect.mod.o;  true

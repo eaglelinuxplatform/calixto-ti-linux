@@ -1,1 +1,0 @@
-cmd_arch/arm/probes/built-in.a := rm -f arch/arm/probes/built-in.a;  printf "arch/arm/probes/%s " decode.o decode-arm.o uprobes/built-in.a kprobes/built-in.a | xargs arm-oe-linux-gnueabi-ar cDPrST arch/arm/probes/built-in.a

@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/tda9887.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/tda9887.ko drivers/media/tuners/tda9887.o drivers/media/tuners/tda9887.mod.o;  true

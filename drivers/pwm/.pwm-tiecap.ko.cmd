@@ -1,1 +1,0 @@
-cmd_drivers/pwm/pwm-tiecap.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-tiecap.ko drivers/pwm/pwm-tiecap.o drivers/pwm/pwm-tiecap.mod.o;  true

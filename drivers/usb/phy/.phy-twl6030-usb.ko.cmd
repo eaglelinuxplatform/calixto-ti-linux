@@ -1,1 +1,0 @@
-cmd_drivers/usb/phy/phy-twl6030-usb.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/phy/phy-twl6030-usb.ko drivers/usb/phy/phy-twl6030-usb.o drivers/usb/phy/phy-twl6030-usb.mod.o;  true

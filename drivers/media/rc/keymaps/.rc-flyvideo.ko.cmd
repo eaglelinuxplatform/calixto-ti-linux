@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-flyvideo.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-flyvideo.ko drivers/media/rc/keymaps/rc-flyvideo.o drivers/media/rc/keymaps/rc-flyvideo.mod.o;  true

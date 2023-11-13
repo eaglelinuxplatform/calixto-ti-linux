@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/tilcdc/tilcdc.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/tilcdc/tilcdc.ko drivers/gpu/drm/tilcdc/tilcdc.o drivers/gpu/drm/tilcdc/tilcdc.mod.o;  true

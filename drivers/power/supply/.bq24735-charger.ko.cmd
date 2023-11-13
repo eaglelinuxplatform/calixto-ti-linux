@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/bq24735-charger.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/bq24735-charger.ko drivers/power/supply/bq24735-charger.o drivers/power/supply/bq24735-charger.mod.o;  true

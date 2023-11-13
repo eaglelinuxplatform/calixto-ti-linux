@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/tda8290.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/tda8290.ko drivers/media/tuners/tda8290.o drivers/media/tuners/tda8290.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_arch/arm/probes/uprobes/built-in.a := rm -f arch/arm/probes/uprobes/built-in.a;  printf "arch/arm/probes/uprobes/%s " core.o actions-arm.o | xargs arm-oe-linux-gnueabi-ar cDPrST arch/arm/probes/uprobes/built-in.a

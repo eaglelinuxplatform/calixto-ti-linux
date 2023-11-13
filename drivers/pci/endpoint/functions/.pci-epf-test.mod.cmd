@@ -1,1 +1,0 @@
-cmd_drivers/pci/endpoint/functions/pci-epf-test.mod := printf '%s\n'   pci-epf-test.o | awk '!x[$$0]++ { print("drivers/pci/endpoint/functions/"$$0) }' > drivers/pci/endpoint/functions/pci-epf-test.mod

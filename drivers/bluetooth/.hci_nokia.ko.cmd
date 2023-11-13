@@ -1,1 +1,0 @@
-cmd_drivers/bluetooth/hci_nokia.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/bluetooth/hci_nokia.ko drivers/bluetooth/hci_nokia.o drivers/bluetooth/hci_nokia.mod.o;  true

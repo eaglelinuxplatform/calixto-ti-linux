@@ -1,1 +1,0 @@
-cmd_drivers/iio/industrialio-sw-device.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/industrialio-sw-device.ko drivers/iio/industrialio-sw-device.o drivers/iio/industrialio-sw-device.mod.o;  true

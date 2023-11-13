@@ -1,6 +1,0 @@
-drivers/input/misc/cpcap-pwrbutton.ko
-drivers/input/misc/palmas-pwrbutton.ko
-drivers/input/misc/pwm-vibra.ko
-drivers/input/misc/tps65218-pwrbutton.ko
-drivers/input/misc/twl4030-pwrbutton.ko
-drivers/input/misc/uinput.ko

@@ -1,1 +1,0 @@
-cmd_net/netfilter/nfnetlink_cthelper.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nfnetlink_cthelper.ko net/netfilter/nfnetlink_cthelper.o net/netfilter/nfnetlink_cthelper.mod.o;  true

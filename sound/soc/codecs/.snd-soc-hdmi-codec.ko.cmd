@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/snd-soc-hdmi-codec.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-hdmi-codec.ko sound/soc/codecs/snd-soc-hdmi-codec.o sound/soc/codecs/snd-soc-hdmi-codec.mod.o;  true

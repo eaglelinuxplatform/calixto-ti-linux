@@ -1,1 +1,0 @@
-cmd_drivers/iio/industrialio-sw-trigger.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/iio/industrialio-sw-trigger.ko drivers/iio/industrialio-sw-trigger.o drivers/iio/industrialio-sw-trigger.mod.o;  true

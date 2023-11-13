@@ -1,1 +1,0 @@
-cmd_drivers/hsi/clients/ssi_protocol.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hsi/clients/ssi_protocol.ko drivers/hsi/clients/ssi_protocol.o drivers/hsi/clients/ssi_protocol.mod.o;  true

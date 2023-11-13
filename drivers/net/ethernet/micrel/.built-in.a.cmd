@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/micrel/built-in.a := rm -f drivers/net/ethernet/micrel/built-in.a;  printf "drivers/net/ethernet/micrel/%s " ks8851_common.o ks8851_spi.o ks8851_par.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/net/ethernet/micrel/built-in.a

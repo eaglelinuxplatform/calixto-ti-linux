@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/img/modules.order := {   cat drivers/media/platform/img/vxe-vxd/modules.order;   cat drivers/media/platform/img/e5010/modules.order; :; } > drivers/media/platform/img/modules.order

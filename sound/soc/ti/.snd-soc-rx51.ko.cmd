@@ -1,1 +1,0 @@
-cmd_sound/soc/ti/snd-soc-rx51.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-rx51.ko sound/soc/ti/snd-soc-rx51.o sound/soc/ti/snd-soc-rx51.mod.o;  true

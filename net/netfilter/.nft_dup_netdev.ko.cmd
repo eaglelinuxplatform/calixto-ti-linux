@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_dup_netdev.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_dup_netdev.ko net/netfilter/nft_dup_netdev.o net/netfilter/nft_dup_netdev.mod.o;  true

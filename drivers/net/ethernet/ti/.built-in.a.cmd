@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/ti/built-in.a := rm -f drivers/net/ethernet/ti/built-in.a;  printf "drivers/net/ethernet/ti/%s " cpsw-common.o davinci_emac.o davinci_cpdma.o davinci_mdio.o cpts.o cpsw.o cpsw_ale.o cpsw_priv.o cpsw_sl.o cpsw_ethtool.o cpsw_switchdev.o cpsw_new.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/net/ethernet/ti/built-in.a

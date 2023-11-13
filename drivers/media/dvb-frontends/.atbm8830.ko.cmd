@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/atbm8830.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/atbm8830.ko drivers/media/dvb-frontends/atbm8830.o drivers/media/dvb-frontends/atbm8830.mod.o;  true

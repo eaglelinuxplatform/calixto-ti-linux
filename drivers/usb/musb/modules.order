@@ -1,5 +1,0 @@
-drivers/usb/musb/musb_hdrc.ko
-drivers/usb/musb/omap2430.ko
-drivers/usb/musb/am35x.ko
-drivers/usb/musb/musb_dsps.ko
-drivers/usb/musb/tusb6010.ko

@@ -1,1 +1,0 @@
-cmd_drivers/watchdog/twl4030_wdt.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/twl4030_wdt.ko drivers/watchdog/twl4030_wdt.o drivers/watchdog/twl4030_wdt.mod.o;  true

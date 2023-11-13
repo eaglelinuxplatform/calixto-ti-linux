@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/core/built-in.a := rm -f drivers/video/fbdev/core/built-in.a;  printf "drivers/video/fbdev/core/%s " fb_cmdline.o fb_notify.o fbmem.o fbmon.o fbcmap.o fbsysfs.o modedb.o fbcvt.o fb_defio.o fbcon.o bitblit.o softcursor.o tileblit.o fbcon_rotate.o fbcon_cw.o fbcon_ud.o fbcon_ccw.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/video/fbdev/core/built-in.a

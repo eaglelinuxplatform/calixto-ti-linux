@@ -1,1 +1,0 @@
-cmd_net/ipv6/netfilter/nf_tproxy_ipv6.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv6/netfilter/nf_tproxy_ipv6.ko net/ipv6/netfilter/nf_tproxy_ipv6.o net/ipv6/netfilter/nf_tproxy_ipv6.mod.o;  true

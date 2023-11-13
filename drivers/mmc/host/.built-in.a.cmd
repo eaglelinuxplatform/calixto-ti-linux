@@ -1,1 +1,0 @@
-cmd_drivers/mmc/host/built-in.a := rm -f drivers/mmc/host/built-in.a;  printf "drivers/mmc/host/%s " sdhci.o omap.o omap_hsmmc.o sdhci-pltfm.o sdhci-omap.o | xargs arm-oe-linux-gnueabi-ar cDPrST drivers/mmc/host/built-in.a

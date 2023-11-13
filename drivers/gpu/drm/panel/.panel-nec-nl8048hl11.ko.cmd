@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/panel/panel-nec-nl8048hl11.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-nec-nl8048hl11.ko drivers/gpu/drm/panel/panel-nec-nl8048hl11.o drivers/gpu/drm/panel/panel-nec-nl8048hl11.mod.o;  true

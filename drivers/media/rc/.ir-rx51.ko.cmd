@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/ir-rx51.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/ir-rx51.ko drivers/media/rc/ir-rx51.o drivers/media/rc/ir-rx51.mod.o;  true

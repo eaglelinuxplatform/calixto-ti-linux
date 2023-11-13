@@ -1,1 +1,0 @@
-cmd_drivers/net/ppp/bsd_comp.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/ppp/bsd_comp.ko drivers/net/ppp/bsd_comp.o drivers/net/ppp/bsd_comp.mod.o;  true

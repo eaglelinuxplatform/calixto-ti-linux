@@ -1,1 +1,0 @@
-cmd_drivers/leds/led-class.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/led-class.ko drivers/leds/led-class.o drivers/leds/led-class.mod.o;  true

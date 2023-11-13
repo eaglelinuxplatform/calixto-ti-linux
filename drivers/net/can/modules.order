@@ -1,3 +1,0 @@
-drivers/net/can/dev/can-dev.ko
-drivers/net/can/c_can/c_can.ko
-drivers/net/can/c_can/c_can_platform.ko

@@ -1,1 +1,0 @@
-cmd_net/ipv6/netfilter/ip6table_filter.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv6/netfilter/ip6table_filter.ko net/ipv6/netfilter/ip6table_filter.o net/ipv6/netfilter/ip6table_filter.mod.o;  true

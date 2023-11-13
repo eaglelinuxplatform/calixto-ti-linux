@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/gpio-ir-tx.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/gpio-ir-tx.ko drivers/media/rc/gpio-ir-tx.o drivers/media/rc/gpio-ir-tx.mod.o;  true

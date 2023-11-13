@@ -1,1 +1,0 @@
-cmd_drivers/media/common/videobuf2/videobuf2-common.o := arm-oe-linux-gnueabi-ld -EL -z noexecstack   -r -o drivers/media/common/videobuf2/videobuf2-common.o @drivers/media/common/videobuf2/videobuf2-common.mod 

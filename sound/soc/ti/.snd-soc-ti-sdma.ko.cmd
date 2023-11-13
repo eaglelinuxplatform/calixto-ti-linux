@@ -1,1 +1,0 @@
-cmd_sound/soc/ti/snd-soc-ti-sdma.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/ti/snd-soc-ti-sdma.ko sound/soc/ti/snd-soc-ti-sdma.o sound/soc/ti/snd-soc-ti-sdma.mod.o;  true

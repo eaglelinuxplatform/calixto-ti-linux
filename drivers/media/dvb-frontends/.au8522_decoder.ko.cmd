@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/au8522_decoder.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/au8522_decoder.ko drivers/media/dvb-frontends/au8522_decoder.o drivers/media/dvb-frontends/au8522_decoder.mod.o;  true

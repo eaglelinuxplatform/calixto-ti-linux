@@ -1,1 +1,0 @@
-cmd_drivers/rpmsg-kdrv/rpmsg_kdrv_switch.ko := arm-oe-linux-gnueabi-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/rpmsg-kdrv/rpmsg_kdrv_switch.ko drivers/rpmsg-kdrv/rpmsg_kdrv_switch.o drivers/rpmsg-kdrv/rpmsg_kdrv_switch.mod.o;  true
