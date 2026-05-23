@@ -1,1 +1,1 @@
-# calixto-ti-linux
+# ti-linux-kernel

@@ -60,8 +60,12 @@ dtb-$(CONFIG_ARCH_K3) += k3-am62d2-evm.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-minimal.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-lpmdemo.dtb
+dtb-$(CONFIG_ARCH_K3) += k3-am62l3-badge.dtb
+dtb-$(CONFIG_ARCH_K3) += k3-am62l3-badge-dsi-rpi-7inch-panel.dtbo
+dtb-$(CONFIG_ARCH_K3) += k3-am62l3-badge-eink-gdey042t81.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-dsi-rpi-7inch-panel.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-ecap-capture.dtbo
+dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-eink-gdey042t81.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-epaper.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-eqep.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-lpm-wkup-sources.dtbo
@@ -69,6 +73,7 @@ dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-m2-cc3351.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-mcan.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-nand.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-pwm.dtbo
+dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-tida-010939.dtbo
 
 # Boards with AM62Px SoC
 dtb-$(CONFIG_ARCH_K3) += k3-am62p5-sk.dtb
@@ -106,6 +111,7 @@ dtb-$(CONFIG_ARCH_K3) += k3-am62x-sk-fastboot-disable-hdmi.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am642-evm.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am642-evm-icssg1-dualemac.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am642-evm-icssg1-dualemac-mii.dtbo
+dtb-$(CONFIG_ARCH_K3) += k3-am642-evm-onboard-clkgen-pcie-serdes.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am642-evm-pcie0-ep.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am642-eqep.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am642-hummingboard-t.dtb
@@ -305,6 +311,8 @@ k3-am642-evm-icssg1-dualemac-dtbs := \
 	k3-am642-evm.dtb k3-am642-evm-icssg1-dualemac.dtbo
 k3-am642-evm-icssg1-dualemac-mii-dtbs := \
 	k3-am642-evm.dtb k3-am642-evm-icssg1-dualemac-mii.dtbo
+k3-am642-evm-onboard-clkgen-pcie-serdes-dtbs := \
+	k3-am642-evm.dtb k3-am642-evm-onboard-clkgen-pcie-serdes.dtbo
 k3-am642-evm-pcie0-ep-dtbs := \
 	k3-am642-evm.dtb k3-am642-evm-pcie0-ep.dtbo
 k3-am642-phyboard-electra-disable-eth-phy-dtbs := \
@@ -405,8 +413,14 @@ k3-j784s4-evm-usb0-type-a-dtbs := k3-j784s4-evm.dtb \
 	k3-j784s4-j742s2-evm-usb0-type-a.dtbo
 k3-j784s4-evm-usxgmii-exp1-exp2-dtbs := k3-j784s4-evm.dtb \
 	k3-j784s4-evm-usxgmii-exp1-exp2.dtbo
+k3-am62l3-badge-dsi-rpi-7inch-panel-dtbs := k3-am62l3-badge.dtb \
+	k3-am62l3-badge-dsi-rpi-7inch-panel.dtbo
+k3-am62l3-badge-eink-gdey042t81-dtbs := k3-am62l3-badge.dtb \
+	k3-am62l3-badge-eink-gdey042t81.dtbo
 k3-am62l3-evm-dsi-rpi-7inch-panel-dtbs := k3-am62l3-evm.dtb \
 	k3-am62l3-evm-dsi-rpi-7inch-panel.dtbo
+k3-am62l3-evm-eink-gdey042t81-dtbs := k3-am62l3-evm.dtb \
+	k3-am62l3-evm-eink-gdey042t81.dtbo
 k3-am62l3-evm-nand-dtbs := k3-am62l3-evm.dtb \
 	k3-am62l3-evm-nand.dtbo
 
@@ -442,6 +456,7 @@ dtb- += k3-am625-beagleplay-csi2-ov5640.dtb \
 	k3-am62p5-sk-microtips-mf070zima-lcd3.dtb \
 	k3-am642-evm-icssg1-dualemac.dtb \
 	k3-am642-evm-icssg1-dualemac-mii.dtb \
+	k3-am642-evm-onboard-clkgen-pcie-serdes.dtb \
 	k3-am642-evm-pcie0-ep.dtb \
 	k3-am642-evm-cpsw3g-pps.dtb \
 	k3-am642-sk-cpsw3g-pps.dtb \
@@ -484,7 +499,10 @@ dtb- += k3-am625-beagleplay-csi2-ov5640.dtb \
 	k3-j784s4-evm-quad-port-eth-exp1.dtb \
 	k3-j784s4-evm-usb0-type-a.dtb \
 	k3-j784s4-evm-usxgmii-exp1-exp2.dtb \
+	k3-am62l3-badge-dsi-rpi-7inch-panel.dtb \
+	k3-am62l3-badge-eink-gdey042t81.dtb \
 	k3-am62l3-evm-dsi-rpi-7inch-panel.dtb \
+	k3-am62l3-evm-eink-gdey042t81.dtb \
 	k3-am62l3-evm-nand.dtb
 
 # FPDLink Sensors
