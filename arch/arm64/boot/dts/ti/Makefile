@@ -58,14 +58,18 @@ dtb-$(CONFIG_ARCH_K3) += k3-am62d2-evm.dtb
 
 # Boards with AM62Lx SoCs
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm.dtb
-dtb-$(CONFIG_ARCH_K3) += k3-am62l3-stamp-1gb.dtb
-dtb-$(CONFIG_ARCH_K3) += k3-am62l3-stamp-2gb.dtb
+dtb-$(CONFIG_ARCH_K3) += k3-am62l-calixto-stamp_1GB.dtb
+dtb-$(CONFIG_ARCH_K3) += k3-am62l-calixto-stamp_2GB.dtb
+dtb-$(CONFIG_ARCH_K3) += k3-am62l-calixto-stamp_256MB.dtb
+dtb-$(CONFIG_ARCH_K3) += k3-am62l-calixto-stamp_512MB.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-minimal.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-lpmdemo.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-badge.dtb
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-badge-dsi-rpi-7inch-panel.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-badge-eink-gdey042t81.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-dsi-rpi-7inch-panel.dtbo
+dtb-$(CONFIG_ARCH_K3) += k3-am62l-calixto-stamp-dsi-waveshare-4inch-panel.dtbo
+dtb-$(CONFIG_ARCH_K3) += k3-am62l-calixto-stamp-parallel-RGB-panel.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-ecap-capture.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-eink-gdey042t81.dtbo
 dtb-$(CONFIG_ARCH_K3) += k3-am62l3-evm-epaper.dtbo
