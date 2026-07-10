@@ -1,0 +1,124 @@
+// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
+/dts-v1/;
+/plugin/;
+#include <dt-bindings/gpio/gpio.h>
+#include <dt-bindings/interrupt-controller/irq.h>
+
+#include "k3-pinctrl.h"
+
+&{/} {
+
+	
+	dummy_3v3: dummy-3v3 {
+        compatible = "regulator-fixed";
+        regulator-name = "dummy_3v3";
+        regulator-min-microvolt = <3300000>;
+        regulator-max-microvolt = <3300000>;
+        regulator-always-on;
+        regulator-boot-on;
+    };
+    
+    panel0 {
+        compatible = "panel-dpi";
+        rotation = <270>;  /* 90, 270 */
+        power-supply = <&dummy_3v3>;
+        width-mm = <154>;
+        height-mm = <86>;
+
+        panel-timing {         
+    		clock-frequency = <30850000>;
+    		hactive = <480>;
+    		vactive = <890>;
+    		hback-porch = <40>;
+    		hfront-porch = <40>;
+    		hsync-len = <10>;
+    		vback-porch = <13>;
+    		vfront-porch = <3>;
+    		vsync-len = <3>;
+    		de-active = <1>;
+    		pixelclk-active = <0>;
+	    };
+
+        port {
+            panel_in: endpoint {
+                remote-endpoint = <&panel_bridge_out>;
+            };
+        };
+    };
+}; 
+
+&dss_ports {
+    #address-cells = <1>;
+    #size-cells = <0>;
+    port@0 {
+        reg = <0>;
+        dpi_out: endpoint {
+            remote-endpoint = <&dsi0_in>;
+        };
+    };
+};
+
+&dsi0 {
+    status = "okay";
+    ports {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        /* port0 = OUTPUT to bridge (DSI_OUTPUT_PORT=0) */
+        port@0 {
+            reg = <0>;
+            dsi0_out: endpoint {
+                data-lanes = <1 2>;
+                remote-endpoint = <&panel_bridge_in>;
+            };
+        };
+
+        /* port1 = INPUT from DSS */
+        port@1 {
+            reg = <1>;
+            dsi0_in: endpoint {
+                remote-endpoint = <&dpi_out>;
+            };
+        };
+    };
+};
+
+
+&dphy_tx0 {
+    status = "okay";
+};
+
+&main_i2c3 {
+    #address-cells = <1>;
+    #size-cells = <0>;
+
+    bridge@45 {
+        compatible = "waveshare,dsi2dpi";
+        reg = <0x45>;
+        ports {
+            #address-cells = <1>;
+            #size-cells = <0>;
+            port@0 {
+                reg = <0>;
+                panel_bridge_in: endpoint {
+                    remote-endpoint = <&dsi0_out>;
+                };
+            };
+            port@1 {
+                reg = <1>;
+                panel_bridge_out: endpoint {
+                    remote-endpoint = <&panel_in>;
+                };
+            };
+        };
+    };
+    
+    gt911: gt911@14 {
+        compatible = "goodix,gt911";
+        reg = <0x14>;
+        touchscreen-size-x = <890>;
+        touchscreen-size-y = <480>;
+        touchscreen-swapped-x-y;
+        touchscreen-inverted-x; 
+    };
+}; 

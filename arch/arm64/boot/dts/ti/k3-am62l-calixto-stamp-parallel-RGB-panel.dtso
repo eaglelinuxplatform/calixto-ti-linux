@@ -1,0 +1,39 @@
+// 24 Bit Parallel RGB Overlay file
+/dts-v1/;
+/plugin/;
+#include <dt-bindings/gpio/gpio.h>
+#include <dt-bindings/interrupt-controller/irq.h>
+
+#include "k3-pinctrl.h"
+
+&{/} {
+ 
+    panel0 {
+        compatible = "newhaven,nhd-4.3-480272ef-atxl";   
+        /* This panel timing matches with the KD43G20-40TC-A2 */
+        status = "okay";
+
+        	port {
+         	   panel_in_rgb: endpoint {        	     
+         	       remote-endpoint = <&dpi_out>;
+         	   };
+        	};
+    	};     
+}; 
+
+&dss {
+	pinctrl-names = "default";
+    	pinctrl-0 = <&dpi_pins_default>;
+};
+
+&dss_ports {
+	#address-cells = <1>;
+	#size-cells = <0>;
+
+	port@0 {
+		reg = <0>;
+		dpi_out: endpoint {
+			remote-endpoint = <&panel_in_rgb>;
+		};
+	};
+};
